@@ -25,8 +25,7 @@ Sau khi hoàn thành thử nghiệm hệ thống **DocuMind AI**, việc dọn d
      brew services stop postgresql
      ```
 
-> ⚠️ **Gợi ý chụp hình (Screenshot Suggestion):**
-> Chụp màn hình Terminal chạy lệnh xóa database `DROP DATABASE documind;` thành công hoặc màn hình DBeaver hiển thị database đã được gỡ bỏ. Lưu vào `/static/images/5-Workshop/5.6-Cleanup/pg-delete.png`.
+![DROP DATABASE documind](/images/5-Workshop/5.14-Cleanup/pg-delete.png)
 
 ---
 
@@ -35,8 +34,7 @@ Sau khi hoàn thành thử nghiệm hệ thống **DocuMind AI**, việc dọn d
    - Nhấn **Empty** để xóa sạch các tệp tài liệu bên trong trước, nhập `permanently delete` để xác nhận.
    - Quay lại danh sách Bucket, chọn bucket đó và nhấn **Delete**, nhập tên bucket để xác nhận xóa hẳn.
 
-> ⚠️ **Gợi ý chụp hình (Screenshot Suggestion):**
-> Chụp màn hình trang xác nhận xóa S3 Bucket thành công hiển thị thông báo màu xanh. Lưu vào `/static/images/5-Workshop/5.6-Cleanup/s3-delete.png`.
+ ![documind-assets-<your-name>](/images/5-Workshop/5.14-Cleanup/s3-delete.png)
 
 ---
 
