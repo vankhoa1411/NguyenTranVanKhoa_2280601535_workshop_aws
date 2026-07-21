@@ -26,7 +26,7 @@ After completing the testing of the **DocuMind AI** system, cleaning up AWS reso
      ```
 
 > ⚠️ **Screenshot Suggestion:**
-> Capture the Terminal running the command to drop the database `DROP DATABASE documind;` successfully or a DBeaver screen showing the database has been removed. Save it to `/static/images/5-Workshop/5.6-Cleanup/pg-delete.png`.
+> ![DROP DATABASE documind](/images/5-Workshop/5.6-Cleanup/pg-delete.png)
 
 ---
 
@@ -36,7 +36,7 @@ After completing the testing of the **DocuMind AI** system, cleaning up AWS reso
    - Return to the Bucket list, select the bucket, click **Delete**, and type the bucket name to confirm deletion.
 
 > ⚠️ **Screenshot Suggestion:**
-> Capture the S3 bucket deletion confirmation page displaying a green success message. Save it to `/static/images/5-Workshop/5.6-Cleanup/s3-delete.png`.
+> ![documind-assets-<your-name>](/images/5-Workshop/5.6-Cleanup/s3-delete.png)
 
 ---
 
