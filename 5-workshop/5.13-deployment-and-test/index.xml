@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Deployment and Test on Internship Report</title><link>https://vankhoa1411.github.io/NguyenTranVanKhoa_2280601535_workshop_aws/5-workshop/5.13-deployment-and-test/</link><description>Recent content in Deployment and Test on Internship Report</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 10 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://vankhoa1411.github.io/NguyenTranVanKhoa_2280601535_workshop_aws/5-workshop/5.13-deployment-and-test/index.xml" rel="self" type="application/rss+xml"/><item><title>Deploy Backend to EC2</title><link>https://vankhoa1411.github.io/NguyenTranVanKhoa_2280601535_workshop_aws/5-workshop/5.13-deployment-and-test/5.13.1-deploy-backend-ec2/</link><pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate><guid>https://vankhoa1411.github.io/NguyenTranVanKhoa_2280601535_workshop_aws/5-workshop/5.13-deployment-and-test/5.13.1-deploy-backend-ec2/</guid><description>&lt;h4 id="overview">Overview&lt;/h4>
+&lt;p>In this step, we will deploy the &lt;strong>Backend API and Worker&lt;/strong> components of the &lt;strong>DocuMind AI&lt;/strong> system to &lt;strong>Amazon EC2&lt;/strong>.&lt;/p>
+&lt;p>The Backend API accepts requests from the frontend, handles user authentication, uploads document payloads to Amazon S3, queues processing tasks in Amazon SQS, and exposes API endpoints for the document Dashboard. The SQS Worker fetches queued messages, calls Amazon Textract for OCR text extraction, sends parsed context to Gemini/OpenAI, and saves results in PostgreSQL.&lt;/p></description></item><item><title>Cấu hình môi trường Production</title><link>https://vankhoa1411.github.io/NguyenTranVanKhoa_2280601535_workshop_aws/5-workshop/5.13-deployment-and-test/5.13.2-configure-env-production/</link><pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate><guid>https://vankhoa1411.github.io/NguyenTranVanKhoa_2280601535_workshop_aws/5-workshop/5.13-deployment-and-test/5.13.2-configure-env-production/</guid><description>&lt;h4 id="overview">Overview&lt;/h4>
+&lt;p>In this step, we will configure the &lt;strong>production environment&lt;/strong> for the &lt;strong>DocuMind AI&lt;/strong> system.&lt;/p>
+&lt;p>The production environment must be configured carefully to ensure the backend can connect to PostgreSQL, Amazon S3, Amazon SQS, Amazon Textract, Gemini/OpenAI, CloudWatch Logs, and AWS Secrets Manager. Concurrently, sensitive configurations such as API keys, JWT secrets, and database URLs must be kept secure.&lt;/p>
+&lt;hr>
+&lt;h4 id="objectives-of-this-step">Objectives of This Step&lt;/h4>
+&lt;p>Upon completing this step, you will:&lt;/p>
+&lt;ul>
+&lt;li>Create a production configuration file for the backend.&lt;/li>
+&lt;li>Configure required environment variables.&lt;/li>
+&lt;li>Distinguish between local &lt;code>.env&lt;/code> and production &lt;code>.env&lt;/code> files.&lt;/li>
+&lt;li>Configure AWS regions, S3 buckets, and SQS queues.&lt;/li>
+&lt;li>Configure Gemini/OpenAI providers.&lt;/li>
+&lt;li>Configure PostgreSQL database connections.&lt;/li>
+&lt;li>Configure Secrets Manager (if used).&lt;/li>
+&lt;li>Verify the backend reads the correct environment variables.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h4 id="the-role-of-production-configuration">The Role of Production Configuration&lt;/h4>
+&lt;p>The production configuration controls how the backend connects to external services.&lt;/p></description></item><item><title>Kiểm tra Full Workflow</title><link>https://vankhoa1411.github.io/NguyenTranVanKhoa_2280601535_workshop_aws/5-workshop/5.13-deployment-and-test/5.13.3-test-full-workflow/</link><pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate><guid>https://vankhoa1411.github.io/NguyenTranVanKhoa_2280601535_workshop_aws/5-workshop/5.13-deployment-and-test/5.13.3-test-full-workflow/</guid><description>&lt;h4 id="overview">Overview&lt;/h4>
+&lt;p>In this step, we will verify the &lt;strong>full workflow&lt;/strong> of the &lt;strong>DocuMind AI&lt;/strong> system after completing backend deployment and production configuration.&lt;/p>
+&lt;p>The full workflow encompasses user authentication, document uploading, file persistence in Amazon S3, job queueing in Amazon SQS, Textract OCR processing, AI Analysis via Gemini/OpenAI, database storage in PostgreSQL, and real-time visualization on the frontend Dashboard.&lt;/p>
+&lt;p>This step validates that the entire system functions end-to-end.&lt;/p>
+&lt;hr>
+&lt;h4 id="objectives-of-this-step">Objectives of This Step&lt;/h4>
+&lt;p>Upon completing this step, you will:&lt;/p></description></item><item><title>Các lỗi thường gặp</title><link>https://vankhoa1411.github.io/NguyenTranVanKhoa_2280601535_workshop_aws/5-workshop/5.13-deployment-and-test/5.13.4-common-errors/</link><pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate><guid>https://vankhoa1411.github.io/NguyenTranVanKhoa_2280601535_workshop_aws/5-workshop/5.13-deployment-and-test/5.13.4-common-errors/</guid><description>&lt;h4 id="overview">Overview&lt;/h4>
+&lt;p>In this step, we will summarize &lt;strong>common errors&lt;/strong> encountered during the deployment and verification of the &lt;strong>DocuMind AI&lt;/strong> system.&lt;/p>
+&lt;p>Errors can occur across various layers, including EC2, the Node.js backend, PostgreSQL, Prisma, Amazon S3, Amazon SQS, Amazon Textract, Gemini/OpenAI, IAM Roles, CloudWatch Logs, CORS headers, or the frontend dashboard.&lt;/p>
+&lt;p>Having a consolidated error reference guides troubleshooting steps and identifies which component should be verified first.&lt;/p>
+&lt;hr>
+&lt;h4 id="objectives-of-this-step">Objectives of This Step&lt;/h4>
+&lt;p>Upon completing this step, you will:&lt;/p></description></item></channel></rss>
