@@ -60,7 +60,7 @@ AI Analysis Result
 PostgreSQL + Prisma
 ```
 
-![setup-gemini-api](/static/images/5-Workshop/5.6-Integrate-AI-Providers/5.6.1-setup-gemini-api/setup-gemini-api.png)
+![setup-gemini-api](/images/5-Workshop/5.6-Integrate-AI-Providers/5.6.1-setup-gemini-api/setup-gemini-api.png)
 
 > ⚠️ **Gợi ý chụp hình (Screenshot Suggestion):**
 > Bạn hãy chụp màn hình trang tạo API Key trong Google AI Studio hoặc vẽ sơ đồ OCR Text → Gemini Service → Gemini API → AI Analysis Result.

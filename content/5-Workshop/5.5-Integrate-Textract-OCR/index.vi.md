@@ -55,7 +55,7 @@ PostgreSQL + Prisma lưu OCR Result
 Chuẩn bị dữ liệu cho Gemini/OpenAI
 ```
 
-![textract-ocr-flow](/static/images/5-Workshop/5.5-Integrate-Textract-OCR/textract-ocr-flow.png)
+![textract-ocr-flow](/images/5-Workshop/5.5-Integrate-Textract-OCR/textract-ocr-flow.png)
 
 > ⚠️ **Gợi ý chụp hình (Screenshot Suggestion):**
 > Vẽ hoặc chụp sơ đồ minh họa luồng xử lý OCR gồm các thành phần: Amazon SQS, OCR Worker, Amazon S3, Amazon Textract và PostgreSQL + Prisma.

@@ -59,7 +59,7 @@ AWS Services
   |-- Secrets Manager
 ```
 
-![create-iam-role](/static/images/5-Workshop/5.11-IAM-Role-and-Policy/5.11.1-create-iam-role/create-iam-role.png)
+![create-iam-role](/images/5-Workshop/5.11-IAM-Role-and-Policy/5.11.1-create-iam-role/create-iam-role.png)
 
 > ⚠️ **Gợi ý chụp hình (Screenshot Suggestion):**
 > Bạn hãy chụp màn hình IAM Role vừa tạo trong AWS Console, hoặc vẽ sơ đồ Backend/Worker sử dụng IAM Role để truy cập S3, SQS, Textract, CloudWatch và Secrets Manager.

@@ -35,7 +35,7 @@ Khi kết hợp với mẫu ứng dụng FAST và thư viện CopilotKit, AI Age
 * **Shared State (Đồng bộ trạng thái)**: Trạng thái được đồng bộ hai chiều giữa Agent và giao diện. Khi người dùng chỉnh sửa danh sách công việc trên màn hình, Agent sẽ nhận biết ngay lập tức và ngược lại.
 * **Human-in-the-loop**: Agent có thể tạm dừng quá trình xử lý để yêu cầu người dùng xác nhận thông tin, chẳng hạn chọn thời gian họp bằng Time Picker, trước khi tiếp tục thực hiện các bước tiếp theo.
 
-![Kiến trúc AG-UI trên Bedrock AgentCore](/static/images/BlogsPosted/Bài 3/735076173_2235605227214217_4643365699851048466_n.jpg)
+![Kiến trúc AG-UI trên Bedrock AgentCore](/images/BlogsPosted/Bài 3/735076173_2235605227214217_4643365699851048466_n.jpg)
 
 ---
 

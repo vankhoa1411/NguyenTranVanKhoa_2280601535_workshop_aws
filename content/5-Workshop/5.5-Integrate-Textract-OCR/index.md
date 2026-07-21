@@ -54,7 +54,7 @@ PostgreSQL + Prisma stores OCR Result
 Prepare data for Gemini/OpenAI
 ```
 
-![textract-ocr-flow](/static/images/5-Workshop/5.5-Integrate-Textract-OCR/textract-ocr-flow.png)
+![textract-ocr-flow](/images/5-Workshop/5.5-Integrate-Textract-OCR/textract-ocr-flow.png)
 
 > ⚠️ **Screenshot Suggestion:**
 > Draw or capture a diagram illustrating the OCR processing flow consisting of these components: Amazon SQS, OCR Worker, Amazon S3, Amazon Textract, and PostgreSQL + Prisma.

@@ -66,7 +66,7 @@ Amazon CloudWatch Logs
 Log Group: /docmind/application
 ```
 
-![cloudwatch-logs](/static/images/5-Workshop/5.12-Monitoring-and-Security/5.12.1-cloudwatch-logs/cloudwatch-logs.png)
+![cloudwatch-logs](/images/5-Workshop/5.12-Monitoring-and-Security/5.12.1-cloudwatch-logs/cloudwatch-logs.png)
 
 > ⚠️ **Gợi ý chụp hình (Screenshot Suggestion):**
 > Bạn hãy chụp màn hình CloudWatch Log Group `/docmind/application` có log từ backend hoặc worker.

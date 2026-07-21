@@ -35,7 +35,7 @@ When combined with the FAST application template and the CopilotKit library, AI 
 * **Shared State**: Implements two-way state synchronization between the agent and the UI. When a user updates a task list on screen, the agent immediately captures the updated state, and vice versa.
 * **Human-in-the-Loop**: The agent can pause mid-execution to request user confirmations, such as selecting a meeting time via an interactive Time Picker component, before continuing to the next execution steps.
 
-![AG-UI on Bedrock AgentCore Architecture](/static/images/BlogsPosted/Bài 3/735076173_2235605227214217_4643365699851048466_n.jpg)
+![AG-UI on Bedrock AgentCore Architecture](/images/BlogsPosted/Bài 3/735076173_2235605227214217_4643365699851048466_n.jpg)
 
 ---
 

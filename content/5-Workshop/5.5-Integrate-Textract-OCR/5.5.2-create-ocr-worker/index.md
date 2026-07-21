@@ -62,7 +62,7 @@ Amazon Textract
 PostgreSQL + Prisma
 ```
 
-![ocr-worker](/static/images/5-Workshop/5.5-Integrate-Textract-OCR/5.5.2-create-ocr-worker/ocr-worker.png)
+![ocr-worker](/images/5-Workshop/5.5-Integrate-Textract-OCR/5.5.2-create-ocr-worker/ocr-worker.png)
 
 > ⚠️ **Screenshot Suggestion:**
 > Capture a screenshot of the worker logs when retrieving SQS messages and invoking Textract successfully, or draw a diagram representing SQS → Worker → S3 → Textract → PostgreSQL.

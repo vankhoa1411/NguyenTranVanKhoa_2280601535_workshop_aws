@@ -66,7 +66,7 @@ Worker xử lý message
   |-- Failed nhiều lần --> Dead Letter Queue
 ```
 
-![dead-letter-queue](/static/images/5-Workshop/5.4-Create-SQS-Processing-Queue/5.4.2-create-dead-letter-queue/dead-letter-queue.png)
+![dead-letter-queue](/images/5-Workshop/5.4-Create-SQS-Processing-Queue/5.4.2-create-dead-letter-queue/dead-letter-queue.png)
 
 > ⚠️ **Gợi ý chụp hình (Screenshot Suggestion):**
 > Bạn hãy chụp màn hình cấu hình Redrive policy của SQS hoặc vẽ sơ đồ Main Queue → Worker → Dead Letter Queue khi message xử lý thất bại.

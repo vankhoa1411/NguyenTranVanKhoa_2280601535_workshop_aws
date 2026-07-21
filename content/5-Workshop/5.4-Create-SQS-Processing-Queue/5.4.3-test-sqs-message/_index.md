@@ -49,7 +49,7 @@ Parse documentId + s3Key
 Prepare for OCR processing
 ```
 
-![test-sqs-message](/static/images/5-Workshop/5.4-Create-SQS-Processing-Queue/5.4.3-test-sqs-message/test-sqs-message.png)
+![test-sqs-message](/images/5-Workshop/5.4-Create-SQS-Processing-Queue/5.4.3-test-sqs-message/test-sqs-message.png)
 
 > ⚠️ **Screenshot Suggestion:**
 > Capture screenshots of the message being sent to SQS and the worker or AWS Console successfully receiving the message.

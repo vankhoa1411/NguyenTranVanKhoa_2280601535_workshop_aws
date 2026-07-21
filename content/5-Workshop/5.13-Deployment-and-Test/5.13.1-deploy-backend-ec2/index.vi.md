@@ -52,7 +52,7 @@ Amazon EC2
 AWS Services + PostgreSQL + AI Providers
 ```
 
-![deploy-backend-ec2](/static/images/5-Workshop/5.13-Deployment-and-Test/5.13.1-deploy-backend-ec2/deploy-backend-ec2.png)
+![deploy-backend-ec2](/images/5-Workshop/5.13-Deployment-and-Test/5.13.1-deploy-backend-ec2/deploy-backend-ec2.png)
 
 > ⚠️ **Gợi ý chụp hình (Screenshot Suggestion):**
 > Bạn hãy chụp màn hình EC2 instance đang chạy, terminal SSH vào EC2 và PM2 hiển thị backend/worker đang online.

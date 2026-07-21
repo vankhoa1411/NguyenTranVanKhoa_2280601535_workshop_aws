@@ -37,7 +37,7 @@ System workflow:
 3. **AWS Lambda + Amazon Bedrock**: Generative AI analyzes the log context, determines the root cause, and translates raw technical outputs into clear, readable summaries.
 4. **Amazon SNS**: Dispatches the AI analysis report to the operations team's email.
 
-![Automated VPN Log Analysis Architecture](/static/images/BlogsPosted/Bài 2/736413148_2237500647024675_6552776318843912410_n.jpg)
+![Automated VPN Log Analysis Architecture](/images/BlogsPosted/Bài 2/736413148_2237500647024675_6552776318843912410_n.jpg)
 
 ---
 

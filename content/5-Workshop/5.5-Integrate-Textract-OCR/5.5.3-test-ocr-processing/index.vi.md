@@ -54,7 +54,7 @@ PostgreSQL + Prisma
 Document status = OCR_COMPLETED
 ```
 
-![test-ocr-processing](/static/images/5-Workshop/5.5-Integrate-Textract-OCR/5.5.3-test-ocr-processing/test-ocr-processing.png)
+![test-ocr-processing](/images/5-Workshop/5.5-Integrate-Textract-OCR/5.5.3-test-ocr-processing/test-ocr-processing.png)
 
 > ⚠️ **Gợi ý chụp hình (Screenshot Suggestion):**
 > Bạn hãy chụp màn hình log worker khi OCR thành công, kết quả OCR trong database hoặc trạng thái document chuyển sang `OCR_COMPLETED`.

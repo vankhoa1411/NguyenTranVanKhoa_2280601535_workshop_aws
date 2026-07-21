@@ -65,7 +65,7 @@ Amazon CloudWatch Logs
 Log Group: /docmind/application
 ```
 
-![cloudwatch-logs](/static/images/5-Workshop/5.12-Monitoring-and-Security/5.12.1-cloudwatch-logs/cloudwatch-logs.png)
+![cloudwatch-logs](/images/5-Workshop/5.12-Monitoring-and-Security/5.12.1-cloudwatch-logs/cloudwatch-logs.png)
 
 > ⚠️ **Screenshot Suggestion:**
 > Capture the CloudWatch Log Group `/docmind/application` containing logs written by the backend or worker.

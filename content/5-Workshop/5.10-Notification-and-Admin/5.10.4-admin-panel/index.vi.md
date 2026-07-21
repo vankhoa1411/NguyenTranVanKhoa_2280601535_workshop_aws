@@ -71,7 +71,7 @@ PostgreSQL + Prisma
 System Events / Notifications / Audit Logs
 ```
 
-![admin-panel](/static/images/5-Workshop/5.10-Notification-and-Admin/5.10.4-admin-panel/admin-panel.png)
+![admin-panel](/images/5-Workshop/5.10-Notification-and-Admin/5.10.4-admin-panel/admin-panel.png)
 
 > ⚠️ **Gợi ý chụp hình (Screenshot Suggestion):**
 > Bạn hãy chụp màn hình Admin Panel hiển thị các card tổng quan như Total Users, Total Documents, Processing, Completed, Failed, Admin Notifications và Audit Logs.

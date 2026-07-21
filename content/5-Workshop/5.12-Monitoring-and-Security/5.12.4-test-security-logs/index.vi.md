@@ -72,7 +72,7 @@ AuditLog / Admin Notification
 Admin Panel
 ```
 
-![test-security-logs](/static/images/5-Workshop/5.12-Monitoring-and-Security/5.12.4-test-security-logs/test-security-logs.png)
+![test-security-logs](/images/5-Workshop/5.12-Monitoring-and-Security/5.12.4-test-security-logs/test-security-logs.png)
 
 > ⚠️ **Gợi ý chụp hình (Screenshot Suggestion):**
 > Bạn hãy chụp màn hình CloudWatch Logs hoặc Admin Audit Log hiển thị các sự kiện như `SECURITY_FORBIDDEN_ACCESS`, `LOGIN_FAILED`, `UNSUPPORTED_FILE_UPLOAD` hoặc WAF `CountedRequests`.

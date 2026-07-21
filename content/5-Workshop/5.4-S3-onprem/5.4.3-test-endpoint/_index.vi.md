@@ -11,7 +11,7 @@ pre : " <b> 5.4.3 </b> "
 
 2. Click tên của endpoint chúng ta mới tạo ở mục 4.2: s3-interface-endpoint. Click details và lưu lại regional DNS name của endpoint (cái đầu tiên) vào text-editor của bạn để dùng ở các bước sau.
 
-![dns name](/static/images/5-Workshop/5.4-S3-onprem/dns.png)
+![dns name](/images/5-Workshop/5.4-S3-onprem/dns.png)
 
 #### Kết nối đến EC2 instance ở trong "VPC On-prem" (giả lập môi trường truyền thống)
 
@@ -19,7 +19,7 @@ pre : " <b> 5.4.3 </b> "
 
 2. Click **Start Session**, chọn EC2 instance có tên **Test-Interface-Endpoint**. EC2 instance này đang chạy trên "VPC On-prem" và sẽ được sử dụng để kiểm tra kết nối đến Amazon S3 thông qua Interface endpoint. Session Manager sẽ mở 1 browser tab mới với shell prompt: **sh-4.2 $**
 
-![Start session](/static/images/5-Workshop/5.4-S3-onprem/start-session.png)
+![Start session](/images/5-Workshop/5.4-S3-onprem/start-session.png)
 
 3. Đi đến ssm-user's home directory với lệnh "cd ~"
 
@@ -28,7 +28,7 @@ pre : " <b> 5.4.3 </b> "
 fallocate -l 1G testfile2.xyz
 ```
 
-![user](/static/images/5-Workshop/5.4-S3-onprem/cli1.png)
+![user](/images/5-Workshop/5.4-S3-onprem/cli1.png)
 
 5. Copy file vào S3 bucket mình tạo ở section 4.2
 ```
@@ -38,7 +38,7 @@ aws s3 cp --endpoint-url https://bucket.<Regional-DNS-Name> testfile2.xyz s3://<
 + Không lấy ' * ' khi copy/paste tên DNS khu vực.
 + Cung cấp tên S3 bucket của bạn
 
-![copy file](/static/images/5-Workshop/5.4-S3-onprem/cli2.png)
+![copy file](/images/5-Workshop/5.4-S3-onprem/cli2.png)
 
 Bây giờ tệp đã được thêm vào bộ chứa S3 của bạn. Hãy kiểm tra bộ chứa S3 của bạn trong bước tiếp theo.
 
@@ -48,7 +48,7 @@ Bây giờ tệp đã được thêm vào bộ chứa S3 của bạn. Hãy kiể
 2. Click Buckets
 3. Click tên bucket của bạn và bạn sẽ thấy testfile2.xyz đã được thêm vào s3 bucket của bạn
 
-![check bucket](/static/images/5-Workshop/5.4-S3-onprem/check-bucket.png)
+![check bucket](/images/5-Workshop/5.4-S3-onprem/check-bucket.png)
 
 
 

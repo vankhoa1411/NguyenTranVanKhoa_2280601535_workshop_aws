@@ -55,7 +55,7 @@ Amazon SQS receives processing message
 Worker polls message from SQS
 ```
 
-![sqs-processing-queue](/static/images/5-Workshop/5.4-Create-SQS-Processing-Queue/sqs-processing-queue.png)
+![sqs-processing-queue](/images/5-Workshop/5.4-Create-SQS-Processing-Queue/sqs-processing-queue.png)
 
 > ⚠️ **Screenshot Suggestion:**
 > Draw or capture a diagram illustrating the processing flow consisting of these components: React Frontend, Backend API, Amazon S3, Amazon SQS Queue, and Worker.

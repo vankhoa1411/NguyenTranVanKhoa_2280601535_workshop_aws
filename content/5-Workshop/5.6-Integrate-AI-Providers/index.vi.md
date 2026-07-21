@@ -56,7 +56,7 @@ Google Gemini API        OpenAI ChatGPT API
 PostgreSQL + Prisma lưu kết quả
 ```
 
-![ai-provider-flow](/static/images/5-Workshop/5.6-Integrate-AI-Providers/ai-provider-flow.png)
+![ai-provider-flow](/images/5-Workshop/5.6-Integrate-AI-Providers/ai-provider-flow.png)
 
 > ⚠️ **Gợi ý chụp hình (Screenshot Suggestion):**
 > Vẽ sơ đồ minh họa luồng OCR Text từ Amazon Textract đi vào AI Gateway, sau đó Gateway chọn Gemini hoặc OpenAI để phân tích tài liệu và lưu kết quả vào PostgreSQL + Prisma.

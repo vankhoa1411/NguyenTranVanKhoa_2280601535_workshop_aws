@@ -56,7 +56,7 @@ Amazon Textract OCR
 PostgreSQL + Prisma stores OCR Result
 ```
 
-![textract-permission](/static/images/5-Workshop/5.5-Integrate-Textract-OCR/5.5.1-configure-textract-permission/textract-permission.png)
+![textract-permission](/images/5-Workshop/5.5-Integrate-Textract-OCR/5.5.1-configure-textract-permission/textract-permission.png)
 
 > ⚠️ **Screenshot Suggestion:**
 > Capture the IAM Policy or IAM Role configured with permissions to invoke Amazon Textract, or draw a diagram representing Worker → S3 → Textract → PostgreSQL.

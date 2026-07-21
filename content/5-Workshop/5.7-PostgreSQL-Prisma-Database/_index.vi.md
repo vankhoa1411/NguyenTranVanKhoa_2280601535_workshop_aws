@@ -48,7 +48,7 @@ Prisma ORM
 PostgreSQL Database
 ```
 
-![postgresql-prisma-flow](/static/images/5-Workshop/5.7-PostgreSQL-Prisma-Database/postgresql-prisma-flow.png)
+![postgresql-prisma-flow](/images/5-Workshop/5.7-PostgreSQL-Prisma-Database/postgresql-prisma-flow.png)
 
 > ⚠️ **Gợi ý chụp hình (Screenshot Suggestion):**
 > Vẽ sơ đồ minh họa Backend API và Worker sử dụng Prisma ORM để đọc/ghi dữ liệu vào PostgreSQL Database.

@@ -57,7 +57,7 @@ Send processing message to Amazon SQS
 Return response to user
 ```
 
-![document-upload-api](/static/images/5-Workshop/5.8-Backend-API-and-Worker/5.8.1-document-upload-api/document-upload-api.png)
+![document-upload-api](/images/5-Workshop/5.8-Backend-API-and-Worker/5.8.1-document-upload-api/document-upload-api.png)
 
 > ⚠️ **Gợi ý chụp hình (Screenshot Suggestion):**
 > Bạn hãy chụp màn hình Postman hoặc frontend upload tài liệu thành công, kèm log backend hiển thị file đã upload lên S3 và message đã gửi vào SQS.

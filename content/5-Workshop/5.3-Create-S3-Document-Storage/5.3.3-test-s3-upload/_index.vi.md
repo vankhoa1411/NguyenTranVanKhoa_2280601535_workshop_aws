@@ -57,7 +57,7 @@ Save metadata to PostgreSQL
 Return document response to frontend
 ```
 
-![test-s3-upload](/static/images/5-Workshop/5.3-Create-S3-Document-Storage/5.3.3-test-s3-upload/test-s3-upload.png)
+![test-s3-upload](/images/5-Workshop/5.3-Create-S3-Document-Storage/5.3.3-test-s3-upload/test-s3-upload.png)
 
 > ⚠️ **Gợi ý chụp hình (Screenshot Suggestion):**
 > Bạn hãy chụp màn hình kết quả upload file thành công từ Postman hoặc frontend, kèm ảnh file đã xuất hiện trong S3 bucket.

@@ -78,7 +78,7 @@ Backend / Worker
 Run application securely
 ```
 
-![cloudwatch-secrets-policy](/static/images/5-Workshop/5.11-IAM-Role-and-Policy/5.11.4-create-cloudwatch-secrets-policy/cloudwatch-secrets-policy.png)
+![cloudwatch-secrets-policy](/images/5-Workshop/5.11-IAM-Role-and-Policy/5.11.4-create-cloudwatch-secrets-policy/cloudwatch-secrets-policy.png)
 
 > ⚠️ **Screenshot Suggestion:**
 > Capture the CloudWatch Logs and Secrets Manager IAM Policy details page, or show the CloudWatch Log Group `/docmind/application` in the AWS Console.

@@ -73,7 +73,7 @@ PostgreSQL Tables
 Prisma Client
 ```
 
-![prisma-migration](/static/images/5-Workshop/5.7-PostgreSQL-Prisma-Database/5.7.3-run-prisma-migration/prisma-migration.png)
+![prisma-migration](/images/5-Workshop/5.7-PostgreSQL-Prisma-Database/5.7.3-run-prisma-migration/prisma-migration.png)
 
 > ⚠️ **Gợi ý chụp hình (Screenshot Suggestion):**
 > Bạn hãy chụp màn hình terminal sau khi chạy `npx prisma migrate dev` thành công, hoặc chụp Prisma Studio hiển thị các bảng đã được tạo.

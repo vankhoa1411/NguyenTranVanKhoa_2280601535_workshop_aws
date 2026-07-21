@@ -66,7 +66,7 @@ Update Document status = COMPLETED
 Delete SQS message
 ```
 
-![sqs-worker-processing](/static/images/5-Workshop/5.8-Backend-API-and-Worker/5.8.2-sqs-worker-processing/sqs-worker-processing.png)
+![sqs-worker-processing](/images/5-Workshop/5.8-Backend-API-and-Worker/5.8.2-sqs-worker-processing/sqs-worker-processing.png)
 
 > ⚠️ **Screenshot Suggestion:**
 > Capture the worker logs when it polls a message from SQS, executes OCR, invokes the AI Gateway, and updates the document status to `COMPLETED`.

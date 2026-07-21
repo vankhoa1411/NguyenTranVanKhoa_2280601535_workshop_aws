@@ -59,7 +59,7 @@ AI Analysis Result
 PostgreSQL + Prisma
 ```
 
-![setup-gemini-api](/static/images/5-Workshop/5.6-Integrate-AI-Providers/5.6.1-setup-gemini-api/setup-gemini-api.png)
+![setup-gemini-api](/images/5-Workshop/5.6-Integrate-AI-Providers/5.6.1-setup-gemini-api/setup-gemini-api.png)
 
 > ⚠️ **Screenshot Suggestion:**
 > Capture the API Key creation page in Google AI Studio, or draw a diagram representing OCR Text → Gemini Service → Gemini API → AI Analysis Result.

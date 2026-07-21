@@ -72,7 +72,7 @@ PostgreSQL Tables
 Prisma Client
 ```
 
-![prisma-migration](/static/images/5-Workshop/5.7-PostgreSQL-Prisma-Database/5.7.3-run-prisma-migration/prisma-migration.png)
+![prisma-migration](/images/5-Workshop/5.7-PostgreSQL-Prisma-Database/5.7.3-run-prisma-migration/prisma-migration.png)
 
 > ⚠️ **Screenshot Suggestion:**
 > Capture the terminal screen displaying a successful run of `npx prisma migrate dev`, or open Prisma Studio to show the created tables.

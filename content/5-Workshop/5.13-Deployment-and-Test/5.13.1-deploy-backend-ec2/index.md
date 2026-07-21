@@ -51,7 +51,7 @@ Amazon EC2
 AWS Services + PostgreSQL + AI Providers
 ```
 
-![deploy-backend-ec2](/static/images/5-Workshop/5.13-Deployment-and-Test/5.13.1-deploy-backend-ec2/deploy-backend-ec2.png)
+![deploy-backend-ec2](/images/5-Workshop/5.13-Deployment-and-Test/5.13.1-deploy-backend-ec2/deploy-backend-ec2.png)
 
 > ⚠️ **Screenshot Suggestion:**
 > Capture the running EC2 instance screen in AWS Console, the active SSH session terminal, and PM2 displaying backend and worker processes online.

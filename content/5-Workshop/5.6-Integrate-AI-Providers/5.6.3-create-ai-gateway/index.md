@@ -62,7 +62,7 @@ Gemini Service       OpenAI Service
 Normalized AI Result
 ```
 
-![ai-gateway](/static/images/5-Workshop/5.6-Integrate-AI-Providers/5.6.3-create-ai-gateway/ai-gateway.png)
+![ai-gateway](/images/5-Workshop/5.6-Integrate-AI-Providers/5.6.3-create-ai-gateway/ai-gateway.png)
 
 > ⚠️ **Screenshot Suggestion:**
 > Draw a diagram illustrating the AI Gateway receiving OCR Text, selecting Gemini or OpenAI, performing fallback when one provider fails, and returning a Normalized AI Result.

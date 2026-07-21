@@ -83,7 +83,7 @@ Frontend uploading directly to S3
 Backend storing metadata and sending SQS job
 ```
 
-![s3-cors-security](/static/images/5-Workshop/5.3-Create-S3-Document-Storage/5.3.2-configure-cors-and-security/s3-cors-security.png)
+![s3-cors-security](/images/5-Workshop/5.3-Create-S3-Document-Storage/5.3.2-configure-cors-and-security/s3-cors-security.png)
 
 > ⚠️ **Screenshot Suggestion:**
 > Capture the CORS configuration section in your S3 bucket or draw a diagram illustrating the private bucket, the backend controlling upload permissions, and the frontend calling the API.

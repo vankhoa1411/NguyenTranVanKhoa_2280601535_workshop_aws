@@ -58,7 +58,7 @@ Amazon S3 Bucket
 PostgreSQL + Prisma lưu metadata
 ```
 
-![create-s3-bucket](/static/images/5-Workshop/5.3-Create-S3-Document-Storage/5.3.1-create-s3-bucket/create-s3-bucket.png)
+![create-s3-bucket](/images/5-Workshop/5.3-Create-S3-Document-Storage/5.3.1-create-s3-bucket/create-s3-bucket.png)
 
 :
 > `/static/images/5-Workshop/5.3-Create-S3-Document-Storage/5.3.1-create-s3-bucket/create-s3-bucket.png`

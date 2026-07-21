@@ -54,7 +54,7 @@ Prisma ORM
 PostgreSQL Database
 ```
 
-![postgresql-database](/static/images/5-Workshop/5.7-PostgreSQL-Prisma-Database/5.7.1-setup-postgresql-database/postgresql-database.png)
+![postgresql-database](/images/5-Workshop/5.7-PostgreSQL-Prisma-Database/5.7.1-setup-postgresql-database/postgresql-database.png)
 
 > ⚠️ **Screenshot Suggestion:**
 > Capture the PostgreSQL database created in pgAdmin, DBeaver, TablePlus, or the terminal. Optionally, capture a diagram representing Backend API → Prisma ORM → PostgreSQL Database.

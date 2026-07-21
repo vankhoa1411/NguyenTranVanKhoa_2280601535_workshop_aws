@@ -68,7 +68,7 @@ Backend API on EC2
                    Frontend Dashboard
 ```
 
-![test-full-workflow](/static/images/5-Workshop/5.13-Deployment-and-Test/5.13.3-test-full-workflow/test-full-workflow.png)
+![test-full-workflow](/images/5-Workshop/5.13-Deployment-and-Test/5.13.3-test-full-workflow/test-full-workflow.png)
 
 > ⚠️ **Screenshot Suggestion:**
 > Capture the frontend Dashboard showing successfully processed documents, the S3 bucket objects view, active SQS queue metrics, and the worker terminal log outputs displaying OCR and AI completion events.

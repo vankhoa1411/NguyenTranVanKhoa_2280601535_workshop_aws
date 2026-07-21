@@ -87,7 +87,7 @@ Backend API Node.js/Express
               Dashboard / Notification
 ```
 
-![backend-api-worker](/static/images/5-Workshop/5.8-Backend-API-and-Worker/backend-api-worker.png)
+![backend-api-worker](/images/5-Workshop/5.8-Backend-API-and-Worker/backend-api-worker.png)
 
 > ⚠️ **Screenshot Suggestion:**
 > Draw a diagram illustrating the processing flow involving the following components: React Frontend, Backend API, Amazon S3, PostgreSQL + Prisma, Amazon SQS, SQS Worker, Amazon Textract, AI Gateway, Gemini API, and OpenAI ChatGPT API.

@@ -14,11 +14,11 @@ Trong phần này, bạn sẽ tạo và kiểm tra Interface Endpoint  S3 bằng
 + Đặt tên interface endpoint
 + Trong Service category, chọn **aws services** 
 
-![name](/static/images/5-Workshop/5.4-S3-onprem/s3-interface-endpoint1.png)
+![name](/images/5-Workshop/5.4-S3-onprem/s3-interface-endpoint1.png)
 
 3.  Trong Search box, gõ S3 và nhấn Enter. Chọn endpoint có tên com.amazonaws.us-east-1.s3. Đảm bảo rằng cột Type có giá trị Interface.
 
-![service](/static/images/5-Workshop/5.4-S3-onprem/s3-interface-endpoint2.png)
+![service](/images/5-Workshop/5.4-S3-onprem/s3-interface-endpoint2.png)
 
 4. Đối với VPC, chọn VPC Cloud từ drop-down.
 {{% notice warning %}}
@@ -26,18 +26,18 @@ Trong phần này, bạn sẽ tạo và kiểm tra Interface Endpoint  S3 bằng
 {{% /notice %}}
 + Mở rộng **Additional settings** và đảm bảo rằng Enable DNS name *không* được chọn (sẽ sử dụng điều này trong phần tiếp theo của workshop)
 
-![vpc](/static/images/5-Workshop/5.4-S3-onprem/s3-interface-endpoint3.png)
+![vpc](/images/5-Workshop/5.4-S3-onprem/s3-interface-endpoint3.png)
 
 5. Chọn 2 subnets trong AZs sau: us-east-1a and us-east-1b
 
-![subnets](/static/images/5-Workshop/5.4-S3-onprem/s3-interface-endpoint4.png)
+![subnets](/images/5-Workshop/5.4-S3-onprem/s3-interface-endpoint4.png)
 
 6. Đối với Security group, chọn SGforS3Endpoint:
 
-![sg](/static/images/5-Workshop/5.4-S3-onprem/s3-interface-endpoint5.png)
+![sg](/images/5-Workshop/5.4-S3-onprem/s3-interface-endpoint5.png)
 
 7. Giữ default policy - full access và click Create endpoint
 
-![success](/static/images/5-Workshop/5.4-S3-onprem/s3-interface-endpoint-success.png)
+![success](/images/5-Workshop/5.4-S3-onprem/s3-interface-endpoint-success.png)
 
 Chúc mừng bạn đã tạo thành công S3 interface endpoint. Ở bước tiếp theo, chúng ta sẽ kiểm tra interface endpoint.

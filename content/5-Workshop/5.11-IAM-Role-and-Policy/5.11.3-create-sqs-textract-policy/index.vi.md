@@ -50,7 +50,7 @@ IAM Role
   |-- Textract Policy --> Amazon Textract
 ```
 
-![sqs-textract-policy](/static/images/5-Workshop/5.11-IAM-Role-and-Policy/5.11.3-create-sqs-textract-policy/sqs-textract-policy.png)
+![sqs-textract-policy](/images/5-Workshop/5.11-IAM-Role-and-Policy/5.11.3-create-sqs-textract-policy/sqs-textract-policy.png)
 
 > ⚠️ **Gợi ý chụp hình (Screenshot Suggestion):**
 > Bạn hãy chụp màn hình IAM Policy có quyền SQS và Textract, hoặc vẽ sơ đồ IAM Role truy cập Amazon SQS và Amazon Textract.

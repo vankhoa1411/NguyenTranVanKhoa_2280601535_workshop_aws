@@ -49,7 +49,7 @@ IAM Role
 Permission Verified
 ```
 
-![test-iam-permission](/static/images/5-Workshop/5.11-IAM-Role-and-Policy/5.11.6-test-iam-permission/test-iam-permission.png)
+![test-iam-permission](/images/5-Workshop/5.11-IAM-Role-and-Policy/5.11.6-test-iam-permission/test-iam-permission.png)
 
 > ⚠️ **Gợi ý chụp hình (Screenshot Suggestion):**
 > Bạn hãy chụp màn hình terminal test `aws sts get-caller-identity`, test S3, test SQS hoặc log CloudWatch cho thấy quyền IAM hoạt động đúng.

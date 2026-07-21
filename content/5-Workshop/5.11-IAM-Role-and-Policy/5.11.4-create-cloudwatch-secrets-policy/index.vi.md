@@ -79,7 +79,7 @@ Backend / Worker
 Run application securely
 ```
 
-![cloudwatch-secrets-policy](/static/images/5-Workshop/5.11-IAM-Role-and-Policy/5.11.4-create-cloudwatch-secrets-policy/cloudwatch-secrets-policy.png)
+![cloudwatch-secrets-policy](/images/5-Workshop/5.11-IAM-Role-and-Policy/5.11.4-create-cloudwatch-secrets-policy/cloudwatch-secrets-policy.png)
 
 > ⚠️ **Gợi ý chụp hình (Screenshot Suggestion):**
 > Bạn hãy chụp màn hình IAM Policy có quyền CloudWatch Logs và Secrets Manager, hoặc chụp CloudWatch Log Group `/docmind/application`.

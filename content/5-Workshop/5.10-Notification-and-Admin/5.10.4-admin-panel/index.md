@@ -70,7 +70,7 @@ PostgreSQL + Prisma
 System Events / Notifications / Audit Logs
 ```
 
-![admin-panel](/static/images/5-Workshop/5.10-Notification-and-Admin/5.10.4-admin-panel/admin-panel.png)
+![admin-panel](/images/5-Workshop/5.10-Notification-and-Admin/5.10.4-admin-panel/admin-panel.png)
 
 > ⚠️ **Screenshot Suggestion:**
 > Capture the Admin Panel dashboard showing overview cards (Total Users, Total Documents, Processing, Completed, Failed) along with Admin Notifications and Audit Logs sections.

@@ -52,7 +52,7 @@ Amazon SQS Queue
 Worker xử lý nền
 ```
 
-![create-sqs-queue](/static/images/5-Workshop/5.4-Create-SQS-Processing-Queue/5.4.1-create-sqs-queue/create-sqs-queue.png)
+![create-sqs-queue](/images/5-Workshop/5.4-Create-SQS-Processing-Queue/5.4.1-create-sqs-queue/create-sqs-queue.png)
 
 > ⚠️ **Gợi ý chụp hình (Screenshot Suggestion):**
 > Bạn hãy chụp màn hình trang tạo SQS Queue trên AWS Console hoặc vẽ sơ đồ Backend API gửi message vào SQS và Worker nhận message từ SQS.

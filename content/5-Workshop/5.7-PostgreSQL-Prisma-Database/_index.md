@@ -47,7 +47,7 @@ Prisma ORM
 PostgreSQL Database
 ```
 
-![postgresql-prisma-flow](/static/images/5-Workshop/5.7-PostgreSQL-Prisma-Database/postgresql-prisma-flow.png)
+![postgresql-prisma-flow](/images/5-Workshop/5.7-PostgreSQL-Prisma-Database/postgresql-prisma-flow.png)
 
 > ⚠️ **Screenshot Suggestion:**
 > Draw a diagram illustrating the Backend API and Worker using Prisma ORM to read/write data into the PostgreSQL Database.

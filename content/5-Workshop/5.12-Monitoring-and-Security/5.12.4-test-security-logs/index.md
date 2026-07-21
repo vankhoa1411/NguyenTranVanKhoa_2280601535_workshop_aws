@@ -71,7 +71,7 @@ AuditLog / Admin Notification
 Admin Panel
 ```
 
-![test-security-logs](/static/images/5-Workshop/5.12-Monitoring-and-Security/5.12.4-test-security-logs/test-security-logs.png)
+![test-security-logs](/images/5-Workshop/5.12-Monitoring-and-Security/5.12.4-test-security-logs/test-security-logs.png)
 
 > ⚠️ **Screenshot Suggestion:**
 > Capture the CloudWatch Logs or Admin Audit Log interface displaying events like `SECURITY_FORBIDDEN_ACCESS`, `LOGIN_FAILED`, `UNSUPPORTED_FILE_UPLOAD`, or WAF `CountedRequests`.

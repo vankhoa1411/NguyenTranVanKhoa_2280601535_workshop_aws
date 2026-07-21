@@ -44,7 +44,7 @@ PostgreSQL Database
 Return test result
 ```
 
-![test-database-connection](/static/images/5-Workshop/5.7-PostgreSQL-Prisma-Database/5.7.4-test-database-connection/test-database-connection.png)
+![test-database-connection](/images/5-Workshop/5.7-PostgreSQL-Prisma-Database/5.7.4-test-database-connection/test-database-connection.png)
 
 > ⚠️ **Screenshot Suggestion:**
 > Capture the terminal or Postman screen showing a successful database health check API call, or open Prisma Studio to show the mock test data.

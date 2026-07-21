@@ -48,7 +48,7 @@ IAM Role
 Permission Verified
 ```
 
-![test-iam-permission](/static/images/5-Workshop/5.11-IAM-Role-and-Policy/5.11.6-test-iam-permission/test-iam-permission.png)
+![test-iam-permission](/images/5-Workshop/5.11-IAM-Role-and-Policy/5.11.6-test-iam-permission/test-iam-permission.png)
 
 > ⚠️ **Screenshot Suggestion:**
 > Capture the terminal window output for `aws sts get-caller-identity`, S3 file list, SQS messages, or CloudWatch log group screens indicating active role access.

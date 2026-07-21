@@ -51,7 +51,7 @@ Amazon S3 Bucket
 PostgreSQL + Prisma storing metadata
 ```
 
-![s3-document-storage](/static/images/5-Workshop/5.3-Create-S3-Document-Storage/s3-document-storage.png)
+![s3-document-storage](/images/5-Workshop/5.3-Create-S3-Document-Storage/s3-document-storage.png)
 
 > ⚠️ **Screenshot Suggestion:**
 > Draw or capture a diagram illustrating the document upload flow containing these components: User, React Frontend, Node.js/Express Backend API, Amazon S3 Bucket, and PostgreSQL + Prisma.

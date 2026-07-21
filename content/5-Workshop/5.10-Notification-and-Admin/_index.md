@@ -81,7 +81,7 @@ User Notification Center       Admin Panel
                          Audit Log / System Alerts
 ```
 
-![notification-admin-flow](/static/images/5-Workshop/5.10-Notification-and-Admin/notification-admin-flow.png)
+![notification-admin-flow](/images/5-Workshop/5.10-Notification-and-Admin/notification-admin-flow.png)
 
 > ⚠️ **Screenshot Suggestion:**
 > Draw a diagram illustrating the Backend API and Worker generating User Notifications, Admin Notifications, and Audit Logs, storing them in PostgreSQL via Prisma, and displaying them on the User Notification Center and Admin Panel.

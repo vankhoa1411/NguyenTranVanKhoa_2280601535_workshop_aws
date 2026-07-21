@@ -50,7 +50,7 @@ Parse documentId + s3Key
 Chuẩn bị xử lý OCR
 ```
 
-![test-sqs-message](/static/images/5-Workshop/5.4-Create-SQS-Processing-Queue/5.4.3-test-sqs-message/test-sqs-message.png)
+![test-sqs-message](/images/5-Workshop/5.4-Create-SQS-Processing-Queue/5.4.3-test-sqs-message/test-sqs-message.png)
 
 > ⚠️ **Gợi ý chụp hình (Screenshot Suggestion):**
 > Bạn hãy chụp màn hình message được gửi vào SQS và màn hình worker hoặc AWS Console nhận được message.

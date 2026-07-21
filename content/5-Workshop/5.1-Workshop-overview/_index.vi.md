@@ -30,7 +30,7 @@ Sau khi hoàn thành workshop, bạn có thể:
 
 Workshop được thiết kế theo mô hình **Cloud-Native Document Processing Pipeline** kết hợp xử lý bất đồng bộ bằng hàng đợi tin nhắn. Frontend giao tiếp với Backend API, Backend lưu tài liệu vào S3 và gửi message vào SQS. Worker nhận message, gọi Textract để trích xuất văn bản, sau đó gửi nội dung sang AI Gateway để xử lý bằng Gemini hoặc OpenAI. Kết quả cuối cùng được lưu vào PostgreSQL và hiển thị lại cho người dùng.
 
-![overview](/static/images/5-Workshop/5.1-Workshop-overview/architecture.png)
+![overview](/images/5-Workshop/5.1-Workshop-overview/architecture.png)
 
 
 

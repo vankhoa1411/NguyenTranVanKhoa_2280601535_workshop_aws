@@ -63,7 +63,7 @@ PostgreSQL + Prisma
 Admin Audit Log Page
 ```
 
-![audit-log](/static/images/5-Workshop/5.10-Notification-and-Admin/5.10.3-audit-log/audit-log.png)
+![audit-log](/images/5-Workshop/5.10-Notification-and-Admin/5.10.3-audit-log/audit-log.png)
 
 > ⚠️ **Gợi ý chụp hình (Screenshot Suggestion):**
 > Bạn hãy chụp màn hình bảng Audit Log trong Admin Panel hoặc Prisma Studio hiển thị các sự kiện như login, upload document, OCR completed và AI analysis completed.

@@ -55,7 +55,7 @@ Prisma ORM
 PostgreSQL Database
 ```
 
-![postgresql-database](/static/images/5-Workshop/5.7-PostgreSQL-Prisma-Database/5.7.1-setup-postgresql-database/postgresql-database.png)
+![postgresql-database](/images/5-Workshop/5.7-PostgreSQL-Prisma-Database/5.7.1-setup-postgresql-database/postgresql-database.png)
 
 > ⚠️ **Gợi ý chụp hình (Screenshot Suggestion):**
 > Bạn hãy chụp màn hình PostgreSQL database đã được tạo trong pgAdmin, DBeaver, TablePlus hoặc terminal. Có thể chụp thêm sơ đồ Backend API → Prisma ORM → PostgreSQL Database.

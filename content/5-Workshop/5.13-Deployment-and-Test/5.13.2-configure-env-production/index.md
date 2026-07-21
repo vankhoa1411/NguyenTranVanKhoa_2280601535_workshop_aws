@@ -63,7 +63,7 @@ Backend API + Worker
 External Services
 ```
 
-![configure-env-production](/static/images/5-Workshop/5.13-Deployment-and-Test/5.13.2-configure-env-production/configure-env-production.png)
+![configure-env-production](/images/5-Workshop/5.13-Deployment-and-Test/5.13.2-configure-env-production/configure-env-production.png)
 
 > ⚠️ **Screenshot Suggestion:**
 > Capture the `.env.production` file layout, ensuring that sensitive parameters like API keys, JWT secrets, and database passwords are redacted or masked.

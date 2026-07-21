@@ -62,7 +62,7 @@ PostgreSQL + Prisma
 Admin Audit Log Page
 ```
 
-![audit-log](/static/images/5-Workshop/5.10-Notification-and-Admin/5.10.3-audit-log/audit-log.png)
+![audit-log](/images/5-Workshop/5.10-Notification-and-Admin/5.10.3-audit-log/audit-log.png)
 
 > ⚠️ **Screenshot Suggestion:**
 > Capture the Audit Log table in the Admin Panel or DBeaver/Prisma Studio showing events such as login, upload document, OCR completed, and AI analysis completed.

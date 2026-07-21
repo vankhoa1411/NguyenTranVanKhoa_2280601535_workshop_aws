@@ -76,7 +76,7 @@ Backend API / Worker
 Admin Panel / Monitoring Dashboard
 ```
 
-![monitoring-security-flow](/static/images/5-Workshop/5.12-Monitoring-and-Security/monitoring-security-flow.png)
+![monitoring-security-flow](/images/5-Workshop/5.12-Monitoring-and-Security/monitoring-security-flow.png)
 
 > ⚠️ **Gợi ý chụp hình (Screenshot Suggestion):**
 > Vẽ sơ đồ minh họa AWS WAF bảo vệ request đi vào hệ thống, Backend/Worker ghi log lên CloudWatch, đọc secret từ Secrets Manager và lưu Audit Log/Admin Notification vào PostgreSQL + Prisma.

@@ -51,7 +51,7 @@ PostgreSQL + Prisma
 Return document status + progress
 ```
 
-![document-status-api](/static/images/5-Workshop/5.8-Backend-API-and-Worker/5.8.3-document-status-api/document-status-api.png)
+![document-status-api](/images/5-Workshop/5.8-Backend-API-and-Worker/5.8.3-document-status-api/document-status-api.png)
 
 > ⚠️ **Gợi ý chụp hình (Screenshot Suggestion):**
 > Bạn hãy chụp màn hình Postman hoặc Dashboard hiển thị trạng thái tài liệu như `QUEUED`, `PROCESSING`, `AI_ANALYZING` hoặc `COMPLETED`.

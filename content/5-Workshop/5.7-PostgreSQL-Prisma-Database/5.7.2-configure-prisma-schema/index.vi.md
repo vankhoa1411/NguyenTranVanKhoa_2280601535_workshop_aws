@@ -54,7 +54,7 @@ Prisma Client
 PostgreSQL Database
 ```
 
-![prisma-schema](/static/images/5-Workshop/5.7-PostgreSQL-Prisma-Database/5.7.2-configure-prisma-schema/prisma-schema.png)
+![prisma-schema](/images/5-Workshop/5.7-PostgreSQL-Prisma-Database/5.7.2-configure-prisma-schema/prisma-schema.png)
 
 > ⚠️ **Gợi ý chụp hình (Screenshot Suggestion):**
 > Bạn hãy chụp màn hình file `schema.prisma` trong VS Code hoặc vẽ sơ đồ quan hệ giữa User, Document, OCRResult, AIAnalysis, Notification và AuditLog.

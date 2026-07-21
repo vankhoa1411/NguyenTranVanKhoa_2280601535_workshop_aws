@@ -64,7 +64,7 @@ Backend API + Worker
 External Services
 ```
 
-![configure-env-production](/static/images/5-Workshop/5.13-Deployment-and-Test/5.13.2-configure-env-production/configure-env-production.png)
+![configure-env-production](/images/5-Workshop/5.13-Deployment-and-Test/5.13.2-configure-env-production/configure-env-production.png)
 
 > ⚠️ **Gợi ý chụp hình (Screenshot Suggestion):**
 > Bạn hãy chụp màn hình file `.env.production` nhưng phải che các giá trị nhạy cảm như API key, JWT secret và database password.

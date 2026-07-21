@@ -30,7 +30,7 @@ After completing the workshop, you will be able to:
 
 The workshop is designed based on a **Cloud-Native Document Processing Pipeline** model combined with asynchronous processing using message queues. The Frontend communicates with the Backend API, the Backend stores documents in S3 and sends messages to SQS. The Worker receives messages, calls Textract to extract text, and then sends the content to the AI Gateway to be processed by Gemini or OpenAI. The final results are stored in PostgreSQL and displayed back to the user.
 
-![overview](/static/images/5-Workshop/5.1-Workshop-overview/architecture.png)
+![overview](/images/5-Workshop/5.1-Workshop-overview/architecture.png)
 
 
 #### System Workflow

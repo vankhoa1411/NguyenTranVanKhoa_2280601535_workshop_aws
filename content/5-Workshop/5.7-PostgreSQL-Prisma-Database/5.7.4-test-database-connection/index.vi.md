@@ -45,7 +45,7 @@ PostgreSQL Database
 Return test result
 ```
 
-![test-database-connection](/static/images/5-Workshop/5.7-PostgreSQL-Prisma-Database/5.7.4-test-database-connection/test-database-connection.png)
+![test-database-connection](/images/5-Workshop/5.7-PostgreSQL-Prisma-Database/5.7.4-test-database-connection/test-database-connection.png)
 
 > ⚠️ **Gợi ý chụp hình (Screenshot Suggestion):**
 > Bạn hãy chụp màn hình terminal hoặc Postman khi test API kết nối database thành công, hoặc chụp Prisma Studio hiển thị dữ liệu test.

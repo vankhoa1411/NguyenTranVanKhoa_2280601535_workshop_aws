@@ -11,22 +11,22 @@ pre : " <b> 5.3.2 </b> "
 1. Đi đến S3 management console
 2. Trong Bucket console, chọn **Create bucket**
 
-![Create bucket](/static/images/5-Workshop/5.3-S3-vpc/create-bucket.png)
+![Create bucket](/images/5-Workshop/5.3-S3-vpc/create-bucket.png)
 
 3. Trong Create bucket console
 + Đặt tên bucket: chọn 1 tên mà không bị trùng trong phạm vi toàn cầu (gợi ý: lab\<số-lab\>\<tên-bạn\>)
 
-![Bucket name](/static/images/5-Workshop/5.3-S3-vpc/bucket-name.png)
+![Bucket name](/images/5-Workshop/5.3-S3-vpc/bucket-name.png)
 
 
 + Giữ nguyên giá trị của các fields khác (default)
 + Kéo chuột xuống và chọn **Create bucket**
 
-![Create](/static/images/5-Workshop/5.3-S3-vpc/create-button.png)    
+![Create](/images/5-Workshop/5.3-S3-vpc/create-button.png)
 
 + Tạo thành công S3 bucket
 
-![Success](/static/images/5-Workshop/5.3-S3-vpc/bucket-success.png)
+![Success](/images/5-Workshop/5.3-S3-vpc/bucket-success.png)
 
 #### Kết nối với EC2 bằng session manager
 
@@ -36,36 +36,36 @@ pre : " <b> 5.3.2 </b> "
 
 1. Trong AWS Management Console, gõ Systems Manager trong ô tìm kiếm và nhấn Enter:
 
-![system manager](/static/images/5-Workshop/5.3-S3-vpc/sm.png)
+![system manager](/images/5-Workshop/5.3-S3-vpc/sm.png)
 
 2. Từ **Systems Manager** menu, tìm **Node Management** ở thanh bên trái và chọn **Session Manager**:
 
-![system manager](/static/images/5-Workshop/5.3-S3-vpc/sm1.png)
+![system manager](/images/5-Workshop/5.3-S3-vpc/sm1.png)
 
 3. Click Start Session, và chọn EC2 instance tên **Test-Gateway-Endpoint**. 
 {{% notice info %}}
 Phiên bản EC2 này đã chạy trong "VPC cloud" và sẽ được dùng để kiểm tra khả năng kết nối với Amazon S3 thông qua điểm cuối Cổng mà bạn vừa tạo (s3-gwe). {{% /notice %}}
 
-![Start session](/static/images/5-Workshop/5.3-S3-vpc/start-session.png)
+![Start session](/images/5-Workshop/5.3-S3-vpc/start-session.png)
 
 Session Manager sẽ mở browser tab mới với shell prompt: sh-4.2 $
 
-![Success](/static/images/5-Workshop/5.3-S3-vpc/start-session-success.png)
+![Success](/images/5-Workshop/5.3-S3-vpc/start-session-success.png)
 
 Bạn đã bắt đầu phiên kết nối đến EC2 trong VPC Cloud thành công. Trong bước tiếp theo, chúng ta sẽ tạo một  S3 bucket và một tệp trong đó.
 #### Create a file and upload to s3 bucket
 
 1. Đổi về ssm-user's thư mục bằng lệnh "cd ~" 
 
-![Change user's dir](/static/images/5-Workshop/5.3-S3-vpc/cli1.png)
+![Change user's dir](/images/5-Workshop/5.3-S3-vpc/cli1.png)
 
 2. Tạo 1 file để kiểm tra bằng lệnh "fallocate -l 1G testfile.xyz", 1 file tên "testfile.xyz" có kích thước 1GB sẽ được tạo.
 
-![Create file](/static/images/5-Workshop/5.3-S3-vpc/cli-file.png)
+![Create file](/images/5-Workshop/5.3-S3-vpc/cli-file.png)
 
 3. Tải file mình vừa tạo lên S3 với lệnh "aws s3 cp testfile.xyz s3://your-bucket-name". Thay your-bucket-name bằng tên S3 bạn đã tạo.
 
-![Uploaded](/static/images/5-Workshop/5.3-S3-vpc/uploaded.png)
+![Uploaded](/images/5-Workshop/5.3-S3-vpc/uploaded.png)
 
 Bạn đã tải thành công tệp lên bộ chứa S3 của mình. Bây giờ bạn có thể kết thúc session.
 
@@ -75,7 +75,7 @@ Bạn đã tải thành công tệp lên bộ chứa S3 của mình. Bây giờ 
 2. Click tên s3 bucket của bạn
 3. Trong Bucket console, bạn sẽ thấy tệp bạn đã tải lên S3 bucket của mình
 
-![Check S3](/static/images/5-Workshop/5.3-S3-vpc/check-s3-bucket.png)
+![Check S3](/images/5-Workshop/5.3-S3-vpc/check-s3-bucket.png)
 
 #### Tóm tắt
 

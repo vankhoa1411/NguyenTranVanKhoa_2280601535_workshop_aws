@@ -65,7 +65,7 @@ Worker processes message
   |-- Failed multiple times --> Dead Letter Queue
 ```
 
-![dead-letter-queue](/static/images/5-Workshop/5.4-Create-SQS-Processing-Queue/5.4.2-create-dead-letter-queue/dead-letter-queue.png)
+![dead-letter-queue](/images/5-Workshop/5.4-Create-SQS-Processing-Queue/5.4.2-create-dead-letter-queue/dead-letter-queue.png)
 
 > ⚠️ **Screenshot Suggestion:**
 > Capture the Redrive policy configuration of SQS in the AWS Console, or draw a diagram illustrating Main Queue → Worker → Dead Letter Queue when message processing fails.

@@ -56,7 +56,7 @@ Send processing message to Amazon SQS
 Return response to user
 ```
 
-![document-upload-api](/static/images/5-Workshop/5.8-Backend-API-and-Worker/5.8.1-document-upload-api/document-upload-api.png)
+![document-upload-api](/images/5-Workshop/5.8-Backend-API-and-Worker/5.8.1-document-upload-api/document-upload-api.png)
 
 > ⚠️ **Screenshot Suggestion:**
 > Capture the Postman or frontend screen showing a successful document upload, alongside backend logs displaying the file uploaded to S3 and the message queued in SQS.

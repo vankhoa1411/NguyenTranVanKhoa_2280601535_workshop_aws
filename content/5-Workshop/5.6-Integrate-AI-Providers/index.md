@@ -55,7 +55,7 @@ Google Gemini API        OpenAI ChatGPT API
 PostgreSQL + Prisma stores result
 ```
 
-![ai-provider-flow](/static/images/5-Workshop/5.6-Integrate-AI-Providers/ai-provider-flow.png)
+![ai-provider-flow](/images/5-Workshop/5.6-Integrate-AI-Providers/ai-provider-flow.png)
 
 > ⚠️ **Screenshot Suggestion:**
 > Draw a diagram illustrating the flow of OCR Text from Amazon Textract into the AI Gateway, which then selects Gemini or OpenAI to analyze the document and store the results in PostgreSQL via Prisma.

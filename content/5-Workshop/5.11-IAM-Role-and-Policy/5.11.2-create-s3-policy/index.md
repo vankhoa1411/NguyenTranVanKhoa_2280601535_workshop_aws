@@ -53,7 +53,7 @@ Amazon S3 Bucket
 documents stored as s3Key
 ```
 
-![s3-policy](/static/images/5-Workshop/5.11-IAM-Role-and-Policy/5.11.2-create-s3-policy/s3-policy.png)
+![s3-policy](/images/5-Workshop/5.11-IAM-Role-and-Policy/5.11.2-create-s3-policy/s3-policy.png)
 
 > ⚠️ **Screenshot Suggestion:**
 > Capture the S3 IAM Policy details or JSON definition page inside the AWS Console.

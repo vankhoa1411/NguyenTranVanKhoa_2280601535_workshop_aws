@@ -63,7 +63,7 @@ Amazon Textract
 PostgreSQL + Prisma
 ```
 
-![ocr-worker](/static/images/5-Workshop/5.5-Integrate-Textract-OCR/5.5.2-create-ocr-worker/ocr-worker.png)
+![ocr-worker](/images/5-Workshop/5.5-Integrate-Textract-OCR/5.5.2-create-ocr-worker/ocr-worker.png)
 
 > ⚠️ **Gợi ý chụp hình (Screenshot Suggestion):**
 > Bạn hãy chụp màn hình log worker khi nhận message từ SQS và gọi Textract thành công, hoặc vẽ sơ đồ SQS → Worker → S3 → Textract → PostgreSQL.

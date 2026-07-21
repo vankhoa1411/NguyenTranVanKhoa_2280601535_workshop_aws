@@ -58,7 +58,7 @@ AWS Services
   |-- Secrets Manager
 ```
 
-![create-iam-role](/static/images/5-Workshop/5.11-IAM-Role-and-Policy/5.11.1-create-iam-role/create-iam-role.png)
+![create-iam-role](/images/5-Workshop/5.11-IAM-Role-and-Policy/5.11.1-create-iam-role/create-iam-role.png)
 
 > ⚠️ **Screenshot Suggestion:**
 > Capture the created IAM Role inside the AWS Console, or draw a diagram representing the Backend/Worker using the IAM Role to access S3, SQS, Textract, CloudWatch, and Secrets Manager.

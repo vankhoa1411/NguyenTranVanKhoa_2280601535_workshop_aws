@@ -59,7 +59,7 @@ PostgreSQL + Prisma
 S3 / SQS / Textract / Gemini / OpenAI
 ```
 
-![frontend-dashboard-flow](/static/images/5-Workshop/5.9-Frontend-Dashboard/frontend-dashboard-flow.png)
+![frontend-dashboard-flow](/images/5-Workshop/5.9-Frontend-Dashboard/frontend-dashboard-flow.png)
 
 > ⚠️ **Gợi ý chụp hình (Screenshot Suggestion):**
 > Vẽ sơ đồ minh họa React Frontend kết nối với Backend API, sau đó backend làm việc với PostgreSQL, Amazon S3, Amazon SQS, Amazon Textract, Gemini API và OpenAI ChatGPT API.

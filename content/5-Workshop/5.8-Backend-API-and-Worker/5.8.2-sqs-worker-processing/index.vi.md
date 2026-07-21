@@ -67,7 +67,7 @@ Update Document status = COMPLETED
 Delete SQS message
 ```
 
-![sqs-worker-processing](/static/images/5-Workshop/5.8-Backend-API-and-Worker/5.8.2-sqs-worker-processing/sqs-worker-processing.png)
+![sqs-worker-processing](/images/5-Workshop/5.8-Backend-API-and-Worker/5.8.2-sqs-worker-processing/sqs-worker-processing.png)
 
 > ⚠️ **Gợi ý chụp hình (Screenshot Suggestion):**
 > Bạn hãy chụp màn hình log worker khi nhận message từ SQS, xử lý OCR, gọi AI Gateway và cập nhật document status thành `COMPLETED`.

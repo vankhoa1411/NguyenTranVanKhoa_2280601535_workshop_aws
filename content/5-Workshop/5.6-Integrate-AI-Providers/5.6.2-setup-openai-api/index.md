@@ -59,7 +59,7 @@ AI Analysis Result
 PostgreSQL + Prisma
 ```
 
-![setup-openai-api](/static/images/5-Workshop/5.6-Integrate-AI-Providers/5.6.2-setup-openai-api/setup-openai-api.png)
+![setup-openai-api](/images/5-Workshop/5.6-Integrate-AI-Providers/5.6.2-setup-openai-api/setup-openai-api.png)
 
 > ⚠️ **Screenshot Suggestion:**
 > Capture the OpenAI API Key creation page, or draw a diagram representing OCR Text → OpenAI Service → OpenAI ChatGPT API → AI Analysis Result.

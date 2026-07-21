@@ -64,7 +64,7 @@ Gemini / OpenAI
 Dashboard Result
 ```
 
-![common-errors](/static/images/5-Workshop/5.13-Deployment-and-Test/5.13.4-common-errors/common-errors.png)
+![common-errors](/images/5-Workshop/5.13-Deployment-and-Test/5.13.4-common-errors/common-errors.png)
 
 > ⚠️ **Gợi ý chụp hình (Screenshot Suggestion):**
 > Bạn hãy chụp màn hình terminal hoặc CloudWatch Logs hiển thị lỗi thực tế và phần xử lý lỗi tương ứng trong báo cáo.

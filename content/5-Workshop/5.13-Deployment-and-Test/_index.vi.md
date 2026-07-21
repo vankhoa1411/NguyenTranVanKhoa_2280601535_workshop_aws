@@ -86,7 +86,7 @@ SQS Worker on EC2
 Frontend shows completed result
 ```
 
-![deployment-test-flow](/static/images/5-Workshop/5.13-Deployment-and-Test/deployment-test-flow.png)
+![deployment-test-flow](/images/5-Workshop/5.13-Deployment-and-Test/deployment-test-flow.png)
 
 > ⚠️ **Gợi ý chụp hình (Screenshot Suggestion):**
 > Vẽ sơ đồ minh họa Frontend gọi Backend API trên EC2, backend upload tài liệu lên S3, gửi message vào SQS, worker xử lý Textract OCR, gọi Gemini/OpenAI và lưu kết quả vào PostgreSQL.

@@ -74,7 +74,7 @@ AWS Secrets Manager
 Load secrets into application config
 ```
 
-![secrets-manager](/static/images/5-Workshop/5.12-Monitoring-and-Security/5.12.2-secrets-manager/secrets-manager.png)
+![secrets-manager](/images/5-Workshop/5.12-Monitoring-and-Security/5.12.2-secrets-manager/secrets-manager.png)
 
 > ⚠️ **Gợi ý chụp hình (Screenshot Suggestion):**
 > Bạn hãy chụp màn hình secret `docmind/backend` trong AWS Secrets Manager, nhưng che các giá trị nhạy cảm trước khi đưa vào báo cáo.

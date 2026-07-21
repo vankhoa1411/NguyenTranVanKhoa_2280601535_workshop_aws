@@ -57,7 +57,7 @@ PostgreSQL + Prisma
 Document status = COMPLETED
 ```
 
-![test-ai-analysis](/static/images/5-Workshop/5.6-Integrate-AI-Providers/5.6.4-test-ai-analysis/test-ai-analysis.png)
+![test-ai-analysis](/images/5-Workshop/5.6-Integrate-AI-Providers/5.6.4-test-ai-analysis/test-ai-analysis.png)
 
 > ⚠️ **Screenshot Suggestion:**
 > Capture the Postman screen when testing AI Analysis successfully, the backend logs displaying the selected provider, or the AIAnalysis data in PostgreSQL.

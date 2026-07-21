@@ -19,13 +19,13 @@ The CloudFormation template will create additional services to support an on-pre
 + One Route 53 Inbound Resolver endpoint that enables "VPC Cloud" to resolve inbound DNS resolution requests to the Private Hosted Zone
 + One Route 53 Outbound Resolver endpoint that enables "VPC On-prem" to forward DNS requests for S3 to "VPC Cloud"
 
-![route 53 diagram](/static/images/5-Workshop/5.4-S3-onprem/route53.png)
+![route 53 diagram](/images/5-Workshop/5.4-S3-onprem/route53.png)
 
 1. Click the following link to open the [AWS CloudFormation console](https://us-east-1.console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/quickcreate?templateURL=https://s3.amazonaws.com/reinvent-endpoints-builders-session/R53CF.yaml&stackName=PLOnpremSetup). The required template will be pre-loaded into the menu. Accept all default and click Create stack.
 
-![Create stack](/static/images/5-Workshop/5.4-S3-onprem/create-stack.png)
+![Create stack](/images/5-Workshop/5.4-S3-onprem/create-stack.png)
 
-![Button](/static/images/5-Workshop/5.4-S3-onprem/create-stack-button.png)
+![Button](/images/5-Workshop/5.4-S3-onprem/create-stack-button.png)
 
 It may take a few minutes for stack deployment to complete. You can continue with the next step without waiting for the deployemnt to finish.
 
@@ -37,19 +37,19 @@ This workshop uses a strongSwan VPN running on an EC2 instance to simulate conne
 
 2. Select the instance named infra-vpngw-test. From the Details tab, copy the Instance ID and paste this into your text editor
 
-![ec2 id](/static/images/5-Workshop/5.4-S3-onprem/ec2-onprem-id.png)
+![ec2 id](/images/5-Workshop/5.4-S3-onprem/ec2-onprem-id.png)
 
 3. Navigate to the VPC menu by using the Search box at the top of the browser window.
 
 4. Click on Route Tables, select the RT Private On-prem route table, select the Routes tab, and click Edit Routes.
 
-![rt](/static/images/5-Workshop/5.4-S3-onprem/rt.png)
+![rt](/images/5-Workshop/5.4-S3-onprem/rt.png)
 
 5. Click Add route.
 + Destination: your Cloud VPC cidr range
 + Target: ID of your infra-vpngw-test instance (you saved in your editor at step 1)
 
-![add route](/static/images/5-Workshop/5.4-S3-onprem/add-route.png)
+![add route](/images/5-Workshop/5.4-S3-onprem/add-route.png)
 
 6. Click Save changes
 

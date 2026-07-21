@@ -84,7 +84,7 @@ Frontend upload trực tiếp lên S3
 Backend lưu metadata và gửi job SQS
 ```
 
-![s3-cors-security](/static/images/5-Workshop/5.3-Create-S3-Document-Storage/5.3.2-configure-cors-and-security/s3-cors-security.png)
+![s3-cors-security](/images/5-Workshop/5.3-Create-S3-Document-Storage/5.3.2-configure-cors-and-security/s3-cors-security.png)
 
 > ⚠️ **Gợi ý chụp hình (Screenshot Suggestion):**
 > Bạn hãy chụp màn hình phần CORS configuration trong S3 bucket hoặc vẽ sơ đồ minh họa bucket private, backend kiểm soát quyền upload và frontend gọi API.

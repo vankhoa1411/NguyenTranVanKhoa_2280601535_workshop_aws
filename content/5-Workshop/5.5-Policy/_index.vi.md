@@ -12,7 +12,7 @@ Bạn có thể tạo chính sách chỉ hạn chế quyền truy cập vào cá
 
 Trong phần này, bạn sẽ tạo chính sách VPC Endpoint hạn chế quyền truy cập vào S3 bucket được chỉ định trong chính sách VPC Endpoint.
 
-![endpoint diagram](/static/images/5-Workshop/5.5-Policy/s3-bucket-policy.png)
+![endpoint diagram](/images/5-Workshop/5.5-Policy/s3-bucket-policy.png)
 
 #### Kết nối tới EC2 và xác minh kết nối tới S3. 
 
@@ -21,17 +21,17 @@ Trong phần này, bạn sẽ tạo chính sách VPC Endpoint hạn chế quyề
 ```
 aws s3 ls s3://<your-bucket-name>
 ```
-![test](/static/images/5-Workshop/5.5-Policy/test1.png)
+![test](/images/5-Workshop/5.5-Policy/test1.png)
 
 Nội dung của bucket bao gồm hai tệp có dung lượng 1GB đã được tải lên trước đó.
 
 2. Tạo một bucket S3 mới; tuân thủ mẫu đặt tên mà bạn đã sử dụng trong Phần 1, nhưng thêm '-2' vào tên. Để các trường khác là mặc định và nhấp vào **Create**.
 
-![create bucket](/static/images/5-Workshop/5.5-Policy/create-bucket.png)
+![create bucket](/images/5-Workshop/5.5-Policy/create-bucket.png)
 
 3. Tạo bucket thành công.
 
-![Success](/static/images/5-Workshop/5.5-Policy/create-bucket-success.png)
+![Success](/images/5-Workshop/5.5-Policy/create-bucket-success.png)
 
 Policy mặc định cho phép truy cập vào tất cả các S3 Buckets thông qua VPC endpoint.
 
@@ -57,11 +57,11 @@ Policy mặc định cho phép truy cập vào tất cả các S3 Buckets thông
 }
 ```
 
-![custom policy](/static/images/5-Workshop/5.5-Policy/policy2.png)
+![custom policy](/images/5-Workshop/5.5-Policy/policy2.png)
 
 Cấu hình policy thành công.
 
-![success](/static/images/5-Workshop/5.5-Policy/success.png)
+![success](/images/5-Workshop/5.5-Policy/success.png)
 
 5. Từ session của bạn trên Test-Gateway-Endpoint instance, kiểm tra truy cập đến S3 bucket bạn tạo ở bước đầu
 
@@ -71,24 +71,24 @@ aws s3 ls s3://<yourbucketname>
 
 Câu lệnh trả về lỗi bởi vì truy cập vào S3 bucket không có quyền trong VPC endpoint policy.
 
-![error](/static/images/5-Workshop/5.5-Policy/error.png)
+![error](/images/5-Workshop/5.5-Policy/error.png)
 
 6. Trở lại home directory của bạn trên EC2 instance ```cd~```
 
 + Tạo file ```fallocate -l 1G test-bucket2.xyz ```
 + Sao chép file lên bucket thứ  2 ```aws s3 cp test-bucket2.xyz s3://<your-2nd-bucket-name>```
 
-![success](/static/images/5-Workshop/5.5-Policy/test2.png)
+![success](/images/5-Workshop/5.5-Policy/test2.png)
 
 Thao tác này được cho phép bởi VPC endpoint policy.
 
-![success](/static/images/5-Workshop/5.5-Policy/test2-success.png)
+![success](/images/5-Workshop/5.5-Policy/test2-success.png)
 
 Sau đó chúng ta kiểm tra truy cập vào S3 bucket đầu tiên
 
  ```aws s3 cp test-bucket2.xyz s3://<your-1st-bucket-name>```
 
- ![fail](/static/images/5-Workshop/5.5-Policy/test2-fail.png)
+ ![fail](/images/5-Workshop/5.5-Policy/test2-fail.png)
 
  Câu lệnh xảy ra lỗi bởi vì bucket không có quyền truy cập bởi VPC endpoint policy.
 

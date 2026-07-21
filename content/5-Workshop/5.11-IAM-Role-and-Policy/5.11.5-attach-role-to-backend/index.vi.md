@@ -48,7 +48,7 @@ IAM Role: DocuMindBackendWorkerRole
 AWS Services
 ```
 
-![attach-role-backend](/static/images/5-Workshop/5.11-IAM-Role-and-Policy/5.11.5-attach-role-to-backend/attach-role-backend.png)
+![attach-role-backend](/images/5-Workshop/5.11-IAM-Role-and-Policy/5.11.5-attach-role-to-backend/attach-role-backend.png)
 
 > ⚠️ **Gợi ý chụp hình (Screenshot Suggestion):**
 > Bạn hãy chụp màn hình IAM Role đã attach đủ 3 policy S3, SQS/Textract và CloudWatch/Secrets, hoặc chụp EC2 instance đã được gắn IAM Role.

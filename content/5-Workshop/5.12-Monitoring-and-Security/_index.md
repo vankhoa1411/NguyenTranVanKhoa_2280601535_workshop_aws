@@ -75,7 +75,7 @@ Backend API / Worker
 Admin Panel / Monitoring Dashboard
 ```
 
-![monitoring-security-flow](/static/images/5-Workshop/5.12-Monitoring-and-Security/monitoring-security-flow.png)
+![monitoring-security-flow](/images/5-Workshop/5.12-Monitoring-and-Security/monitoring-security-flow.png)
 
 > ⚠️ **Screenshot Suggestion:**
 > Draw a diagram illustrating AWS WAF protecting requests entering the system, the Backend/Worker posting logs to CloudWatch, retrieving secrets from Secrets Manager, and saving Audit Logs/Admin Notifications in PostgreSQL via Prisma.

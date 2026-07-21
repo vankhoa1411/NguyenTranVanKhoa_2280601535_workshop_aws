@@ -51,7 +51,7 @@ Amazon SQS Queue
 Worker background processing
 ```
 
-![create-sqs-queue](/static/images/5-Workshop/5.4-Create-SQS-Processing-Queue/5.4.1-create-sqs-queue/create-sqs-queue.png)
+![create-sqs-queue](/images/5-Workshop/5.4-Create-SQS-Processing-Queue/5.4.1-create-sqs-queue/create-sqs-queue.png)
 
 > ⚠️ **Screenshot Suggestion:**
 > Capture the SQS Queue creation page in the AWS Console, or draw a diagram illustrating the Backend API sending a message to SQS and the Worker receiving messages from SQS.

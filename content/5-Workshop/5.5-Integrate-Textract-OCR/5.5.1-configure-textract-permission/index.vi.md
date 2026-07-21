@@ -57,7 +57,7 @@ Amazon Textract OCR
 PostgreSQL + Prisma lưu OCR Result
 ```
 
-![textract-permission](/static/images/5-Workshop/5.5-Integrate-Textract-OCR/5.5.1-configure-textract-permission/textract-permission.png)
+![textract-permission](/images/5-Workshop/5.5-Integrate-Textract-OCR/5.5.1-configure-textract-permission/textract-permission.png)
 
 > ⚠️ **Gợi ý chụp hình (Screenshot Suggestion):**
 > Bạn hãy chụp màn hình IAM Policy hoặc IAM Role có quyền gọi Amazon Textract, hoặc vẽ sơ đồ Worker → S3 → Textract → PostgreSQL.

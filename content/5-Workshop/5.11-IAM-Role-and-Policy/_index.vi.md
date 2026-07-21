@@ -50,7 +50,7 @@ IAM Role
 AWS Services
 ```
 
-![iam-role-policy-flow](/static/images/5-Workshop/5.11-IAM-Role-and-Policy/iam-role-policy-flow.png)
+![iam-role-policy-flow](/images/5-Workshop/5.11-IAM-Role-and-Policy/iam-role-policy-flow.png)
 
 > ⚠️ **Gợi ý chụp hình (Screenshot Suggestion):**
 > Vẽ sơ đồ minh họa Backend/Worker sử dụng IAM Role để truy cập Amazon S3, Amazon SQS, Amazon Textract, CloudWatch Logs và AWS Secrets Manager.

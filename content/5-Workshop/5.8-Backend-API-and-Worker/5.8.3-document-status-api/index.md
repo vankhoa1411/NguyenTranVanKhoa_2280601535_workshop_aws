@@ -50,7 +50,7 @@ PostgreSQL + Prisma
 Return document status + progress
 ```
 
-![document-status-api](/static/images/5-Workshop/5.8-Backend-API-and-Worker/5.8.3-document-status-api/document-status-api.png)
+![document-status-api](/images/5-Workshop/5.8-Backend-API-and-Worker/5.8.3-document-status-api/document-status-api.png)
 
 > ⚠️ **Screenshot Suggestion:**
 > Capture the Postman or Dashboard screen displaying the document status as `QUEUED`, `PROCESSING`, `AI_ANALYZING`, or `COMPLETED`.

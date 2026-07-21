@@ -53,7 +53,7 @@ Prisma Client
 PostgreSQL Database
 ```
 
-![prisma-schema](/static/images/5-Workshop/5.7-PostgreSQL-Prisma-Database/5.7.2-configure-prisma-schema/prisma-schema.png)
+![prisma-schema](/images/5-Workshop/5.7-PostgreSQL-Prisma-Database/5.7.2-configure-prisma-schema/prisma-schema.png)
 
 > ⚠️ **Screenshot Suggestion:**
 > Capture the `schema.prisma` file in VS Code or draw a diagram representing the entity relationships between User, Document, OCRResult, AIAnalysis, Notification, and AuditLog.

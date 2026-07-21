@@ -49,7 +49,7 @@ IAM Role
   |-- Textract Policy --> Amazon Textract
 ```
 
-![sqs-textract-policy](/static/images/5-Workshop/5.11-IAM-Role-and-Policy/5.11.3-create-sqs-textract-policy/sqs-textract-policy.png)
+![sqs-textract-policy](/images/5-Workshop/5.11-IAM-Role-and-Policy/5.11.3-create-sqs-textract-policy/sqs-textract-policy.png)
 
 > ⚠️ **Screenshot Suggestion:**
 > Capture the SQS and Textract IAM Policy details or JSON definition page inside the AWS Console.

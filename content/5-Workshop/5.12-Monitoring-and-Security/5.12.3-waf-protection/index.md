@@ -72,7 +72,7 @@ CloudFront or Application Load Balancer
 Backend API / Frontend
 ```
 
-![waf-protection](/static/images/5-Workshop/5.12-Monitoring-and-Security/5.12.3-waf-protection/waf-protection.png)
+![waf-protection](/images/5-Workshop/5.12-Monitoring-and-Security/5.12.3-waf-protection/waf-protection.png)
 
 > ⚠️ **Screenshot Suggestion:**
 > Capture the created AWS WAF Web ACL dashboard showing rule groups and Associated AWS resources (such as CloudFront or ALB).

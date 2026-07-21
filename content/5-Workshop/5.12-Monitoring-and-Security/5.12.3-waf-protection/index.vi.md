@@ -73,7 +73,7 @@ CloudFront hoặc Application Load Balancer
 Backend API / Frontend
 ```
 
-![waf-protection](/static/images/5-Workshop/5.12-Monitoring-and-Security/5.12.3-waf-protection/waf-protection.png)
+![waf-protection](/images/5-Workshop/5.12-Monitoring-and-Security/5.12.3-waf-protection/waf-protection.png)
 
 > ⚠️ **Gợi ý chụp hình (Screenshot Suggestion):**
 > Bạn hãy chụp màn hình AWS WAF Web ACL đã tạo và phần Associated AWS resources nếu có gắn với CloudFront hoặc ALB.

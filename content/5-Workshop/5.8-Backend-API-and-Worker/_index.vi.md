@@ -88,7 +88,7 @@ Backend API Node.js/Express
               Dashboard / Notification
 ```
 
-![backend-api-worker](/static/images/5-Workshop/5.8-Backend-API-and-Worker/backend-api-worker.png)
+![backend-api-worker](/images/5-Workshop/5.8-Backend-API-and-Worker/backend-api-worker.png)
 
 > ⚠️ **Gợi ý chụp hình (Screenshot Suggestion):**
 > Vẽ sơ đồ minh họa luồng xử lý gồm các thành phần: React Frontend, Backend API, Amazon S3, PostgreSQL + Prisma, Amazon SQS, SQS Worker, Amazon Textract, AI Gateway, Gemini API và OpenAI ChatGPT API.

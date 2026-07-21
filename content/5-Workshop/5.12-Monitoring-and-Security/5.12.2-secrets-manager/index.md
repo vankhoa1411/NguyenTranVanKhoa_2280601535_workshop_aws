@@ -73,7 +73,7 @@ AWS Secrets Manager
 Load secrets into application config
 ```
 
-![secrets-manager](/static/images/5-Workshop/5.12-Monitoring-and-Security/5.12.2-secrets-manager/secrets-manager.png)
+![secrets-manager](/images/5-Workshop/5.12-Monitoring-and-Security/5.12.2-secrets-manager/secrets-manager.png)
 
 > ⚠️ **Screenshot Suggestion:**
 > Capture the secret details page for `docmind/backend` inside the AWS Secrets Manager Console, ensuring sensitive values are masked before inclusion.

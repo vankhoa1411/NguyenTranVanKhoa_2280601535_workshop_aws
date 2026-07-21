@@ -82,7 +82,7 @@ User Notification Center       Admin Panel
                          Audit Log / System Alerts
 ```
 
-![notification-admin-flow](/static/images/5-Workshop/5.10-Notification-and-Admin/notification-admin-flow.png)
+![notification-admin-flow](/images/5-Workshop/5.10-Notification-and-Admin/notification-admin-flow.png)
 
 > ⚠️ **Gợi ý chụp hình (Screenshot Suggestion):**
 > Vẽ sơ đồ minh họa Backend API và Worker tạo User Notification, Admin Notification và Audit Log, sau đó lưu vào PostgreSQL + Prisma để hiển thị trên User Notification Center và Admin Panel.

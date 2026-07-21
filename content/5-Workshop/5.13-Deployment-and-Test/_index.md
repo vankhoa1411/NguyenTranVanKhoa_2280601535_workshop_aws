@@ -85,7 +85,7 @@ SQS Worker on EC2
 Frontend shows completed result
 ```
 
-![deployment-test-flow](/static/images/5-Workshop/5.13-Deployment-and-Test/deployment-test-flow.png)
+![deployment-test-flow](/images/5-Workshop/5.13-Deployment-and-Test/deployment-test-flow.png)
 
 > ⚠️ **Screenshot Suggestion:**
 > Draw a diagram illustrating the Frontend calling the Backend API on EC2, the backend uploading files to S3, queueing messages in SQS, the worker executing Textract OCR, calling Gemini/OpenAI, and saving results to PostgreSQL.

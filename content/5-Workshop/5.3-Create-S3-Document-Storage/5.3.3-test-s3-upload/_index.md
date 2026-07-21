@@ -56,7 +56,7 @@ Save metadata to PostgreSQL
 Return document response to frontend
 ```
 
-![test-s3-upload](/static/images/5-Workshop/5.3-Create-S3-Document-Storage/5.3.3-test-s3-upload/test-s3-upload.png)
+![test-s3-upload](/images/5-Workshop/5.3-Create-S3-Document-Storage/5.3.3-test-s3-upload/test-s3-upload.png)
 
 > ⚠️ **Screenshot Suggestion:**
 > Capture a screenshot of the successful file upload response from Postman or the frontend, along with an image of the file appearing in the S3 bucket.

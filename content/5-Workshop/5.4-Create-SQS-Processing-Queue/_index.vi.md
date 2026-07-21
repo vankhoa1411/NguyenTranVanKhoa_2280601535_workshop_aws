@@ -56,7 +56,7 @@ Amazon SQS nhận message xử lý
 Worker poll message từ SQS
 ```
 
-![sqs-processing-queue](/static/images/5-Workshop/5.4-Create-SQS-Processing-Queue/sqs-processing-queue.png)
+![sqs-processing-queue](/images/5-Workshop/5.4-Create-SQS-Processing-Queue/sqs-processing-queue.png)
 
 > ⚠️ **Gợi ý chụp hình (Screenshot Suggestion):**
 > Vẽ hoặc chụp sơ đồ minh họa luồng xử lý gồm các thành phần: React Frontend, Backend API, Amazon S3, Amazon SQS Queue và Worker.

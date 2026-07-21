@@ -23,7 +23,7 @@ MuleSoft Runtime Fabric (RTF) là nền tảng triển khai và điều phối c
 
 Khi triển khai trên ROSA (Red Hat OpenShift Service on AWS), Runtime Fabric được cài đặt dưới dạng Red Hat OpenShift Certified Operator, giúp tự động hóa việc triển khai, quản lý và mở rộng ứng dụng theo chuẩn Kubernetes.
 
-![MuleSoft Runtime Fabric trên ROSA](/static/images/BlogsPosted/Bài 1/739437321_2240342243407182_7284734041828767801_n.jpg)
+![MuleSoft Runtime Fabric trên ROSA](/images/BlogsPosted/Bài 1/739437321_2240342243407182_7284734041828767801_n.jpg)
 
 ---
 
@@ -36,7 +36,7 @@ Mô hình này mang lại nhiều lợi ích:
 * **Giảm gánh nặng quản trị** Kubernetes, nhờ AWS và Red Hat chịu trách nhiệm quản lý, cập nhật và vá lỗi cụm OpenShift.
 * **Tăng khả năng sẵn sàng**, hỗ trợ triển khai đa Availability Zone và nâng cấp độc lập giữa Control Plane và Worker Nodes.
 
-![ROSA HCP Architecture](/static/images/BlogsPosted/Bài 1/741120668_2240342270073846_7435324291169642636_n.jpg)
+![ROSA HCP Architecture](/images/BlogsPosted/Bài 1/741120668_2240342270073846_7435324291169642636_n.jpg)
 
 ---
 

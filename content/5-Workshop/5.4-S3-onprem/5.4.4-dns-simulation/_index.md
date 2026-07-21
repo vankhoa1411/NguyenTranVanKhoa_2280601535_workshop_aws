@@ -13,11 +13,11 @@ In this section, you will create a forwarding rule to send DNS resolution reques
 #### Create DNS Alias Records for the Interface endpoint
 1. Navigate to the [Route 53 management console](https://us-east-1.console.aws.amazon.com/route53/v2/hostedzones?region=us-east-1#) (Hosted Zones section).  The CloudFormation template you deployed in the Prepare the environment section created this Private Hosted Zone. Click on the name of the Private Hosted Zone, s3.us-east-1.amazonaws.com:
 
-![hosted zone](/static/images/5-Workshop/5.4-S3-onprem/hosted-zone.png)
+![hosted zone](/images/5-Workshop/5.4-S3-onprem/hosted-zone.png)
 
 2. Create a new record in the Private Hosted Zone:
 
-![Create record](/static/images/5-Workshop/5.4-S3-onprem/create-record1.png)
+![Create record](/images/5-Workshop/5.4-S3-onprem/create-record1.png)
 
 + Record name and record type keep default options
 + Alias Button: Click to enable
@@ -25,7 +25,7 @@ In this section, you will create a forwarding rule to send DNS resolution reques
 + Region: US East (N. Virginia) [us-east-1]
 + Choose endpoint: Paste the Regional VPC Endpoint DNS name from your text editor (you saved when doing section 4.3)
 
-![record1](/static/images/5-Workshop/5.4-S3-onprem/record1.png)
+![record1](/images/5-Workshop/5.4-S3-onprem/record1.png)
 
 3. Click Add another record, and add a second record using the following values. Click Create records when finished to create both records.
 + Record name: *.
@@ -35,11 +35,11 @@ In this section, you will create a forwarding rule to send DNS resolution reques
 + Region: US East (N. Virginia) [us-east-1]
 + Choose endpoint: Paste the Regional VPC Endpoint DNS name from your text editor
 
-![record 2](/static/images/5-Workshop/5.4-S3-onprem/record2.png)
+![record 2](/images/5-Workshop/5.4-S3-onprem/record2.png)
 
 The new records appear in the Route 53 console:
 
-![result](/static/images/5-Workshop/5.4-S3-onprem/result.png)
+![result](/images/5-Workshop/5.4-S3-onprem/result.png)
 
 #### Create a Resolver Forwarding Rule
 
@@ -48,40 +48,40 @@ Route 53 Resolver Forwarding Rules allow you to forward DNS queries from your VP
 1. From the Route 53 management console, click **Inbound endpoints** on the left side bar
 2. In the Inbound endpoints console, click the ID of the inbound endpoint
 
-![Inbound endpoint](/static/images/5-Workshop/5.4-S3-onprem/route53-1.png)
+![Inbound endpoint](/images/5-Workshop/5.4-S3-onprem/route53-1.png)
 
 3. Copy the two IP addresses listed to your text editor
 
-![Ip addresses](/static/images/5-Workshop/5.4-S3-onprem/route53-2.png)
+![Ip addresses](/images/5-Workshop/5.4-S3-onprem/route53-2.png)
 
 4. From the Route 53 menu, choose **Resolver** > **Rules**, and click **Create rule**:
 
-![Ip addresses](/static/images/5-Workshop/5.4-S3-onprem/route53-3.png)
+![Ip addresses](/images/5-Workshop/5.4-S3-onprem/route53-3.png)
 
 5. In the Create rule console:
 + Name: myS3Rule
 + Rule type: Forward
 + Domain name: s3.us-east-1.amazonaws.com
 
-![create rule](/static/images/5-Workshop/5.4-S3-onprem/route53-4.png)
+![create rule](/images/5-Workshop/5.4-S3-onprem/route53-4.png)
 
 + VPC: VPC On-prem
 + Outbound endpoint: VPCOnpremOutboundEndpoint
 
-![create rule](/static/images/5-Workshop/5.4-S3-onprem/route53-5.png)
+![create rule](/images/5-Workshop/5.4-S3-onprem/route53-5.png)
 
 + Target IP Addresses: Enter both IP addresses from your text editor (inbound endpoint addresses) and then click Submit
 
-![create rule](/static/images/5-Workshop/5.4-S3-onprem/route53-6.png)
+![create rule](/images/5-Workshop/5.4-S3-onprem/route53-6.png)
 You have successfully created resolver forwarding rule. 
 
-![create rule](/static/images/5-Workshop/5.4-S3-onprem/route53-7.png)
+![create rule](/images/5-Workshop/5.4-S3-onprem/route53-7.png)
 
 #### Test the on-premises DNS Simulation
 
 1. Connect to **Test-Interface-Endpoint EC2 instance** with **Session manager**
 
-![create rule](/static/images/5-Workshop/5.4-S3-onprem/test1.png)
+![create rule](/images/5-Workshop/5.4-S3-onprem/test1.png)
 
 2. Test DNS resolution. The dig command will return the IP addresses assigned to the VPC Interface endpoint running in VPC Cloud (your IP's will be different): dig +short s3.us-east-1.amazonaws.com 
 
@@ -89,12 +89,12 @@ You have successfully created resolver forwarding rule.
 The IP addresses returned are the VPC endpoint IP addresses, NOT the Resolver IP addresses you pasted from your text editor. The IP addresses of the Resolver endpoint and the VPC endpoint look similar because they are all from the VPC Cloud CIDR block.
 {{% /notice %}}
 
-![create rule](/static/images/5-Workshop/5.4-S3-onprem/dig.png)
+![create rule](/images/5-Workshop/5.4-S3-onprem/dig.png)
 
 
 3. Navigate to the VPC menu (Endpoints section), select the S3 Interface endpoint. Click the Subnets tab and verify that the IP addresses returned by Dig match the VPC endpoint:
 
-![create rule](/static/images/5-Workshop/5.4-S3-onprem/subnet.png)
+![create rule](/images/5-Workshop/5.4-S3-onprem/subnet.png)
 
 4. Return to your shell and use the AWS CLI to test listing your S3 buckets:
 
@@ -102,10 +102,10 @@ The IP addresses returned are the VPC endpoint IP addresses, NOT the Resolver IP
 aws s3 ls --endpoint-url https://s3.us-east-1.amazonaws.com
 ```
 
-![create rule](/static/images/5-Workshop/5.4-S3-onprem/endpoint.png)
+![create rule](/images/5-Workshop/5.4-S3-onprem/endpoint.png)
 
 5. Terminate your Session Manager session:
 
-![create rule](/static/images/5-Workshop/5.4-S3-onprem/terminal.png)
+![create rule](/images/5-Workshop/5.4-S3-onprem/terminal.png)
 
 In this section you created an Interface endpoint for Amazon S3. This endpoint can be reached from on-premises through Site-to-Site VPN or AWS Direct Connect. Route 53 Resolver outbound endpoints simulated forwarding DNS requests from on-premises to a Private Hosted Zone running the cloud. Route 53 inbound Endpoints recieved the resolution request and returned a response containing the IP addresses of the VPC interface endpoint. Using DNS to resolve the endpoint IP addresses provides high availability in-case of an Availability Zone outage.

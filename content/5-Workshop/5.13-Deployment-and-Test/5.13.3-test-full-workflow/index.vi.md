@@ -69,7 +69,7 @@ Backend API on EC2
                   Frontend Dashboard
 ```
 
-![test-full-workflow](/static/images/5-Workshop/5.13-Deployment-and-Test/5.13.3-test-full-workflow/test-full-workflow.png)
+![test-full-workflow](/images/5-Workshop/5.13-Deployment-and-Test/5.13.3-test-full-workflow/test-full-workflow.png)
 
 > ⚠️ **Gợi ý chụp hình (Screenshot Suggestion):**
 > Bạn hãy chụp màn hình Dashboard sau khi tài liệu xử lý thành công, S3 object đã upload, SQS message đã được xử lý và log worker hiển thị OCR/AI completed.

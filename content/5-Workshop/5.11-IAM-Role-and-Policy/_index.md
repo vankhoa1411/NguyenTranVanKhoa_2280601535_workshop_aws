@@ -49,7 +49,7 @@ IAM Role
 AWS Services
 ```
 
-![iam-role-policy-flow](/static/images/5-Workshop/5.11-IAM-Role-and-Policy/iam-role-policy-flow.png)
+![iam-role-policy-flow](/images/5-Workshop/5.11-IAM-Role-and-Policy/iam-role-policy-flow.png)
 
 > ⚠️ **Screenshot Suggestion:**
 > Draw a diagram illustrating the Backend/Worker utilizing an IAM Role to access Amazon S3, Amazon SQS, Amazon Textract, CloudWatch Logs, and AWS Secrets Manager.

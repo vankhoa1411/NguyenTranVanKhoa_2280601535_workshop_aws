@@ -37,7 +37,7 @@ Luồng hoạt động:
 3. **AWS Lambda + Amazon Bedrock**: AI phân tích các log, xác định nguyên nhân và chuyển đổi thông tin kỹ thuật thành báo cáo dễ hiểu.
 4. **Amazon SNS**: Gửi kết quả phân tích đến email của đội vận hành.
 
-![Kiến trúc tự động phân tích VPN Logs](/static/images/BlogsPosted/Bài 2/736413148_2237500647024675_6552776318843912410_n.jpg)
+![Kiến trúc tự động phân tích VPN Logs](/images/BlogsPosted/Bài 2/736413148_2237500647024675_6552776318843912410_n.jpg)
 
 ---
 
