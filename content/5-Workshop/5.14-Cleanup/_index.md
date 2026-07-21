@@ -26,7 +26,7 @@ After completing the testing of the **DocuMind AI** system, cleaning up AWS reso
      ```
 
 > ⚠️ **Screenshot Suggestion:**
-> ![DROP DATABASE documind](/images/5-Workshop/5.6-Cleanup/pg-delete.png)
+> ![DROP DATABASE documind](/images/5-Workshop/5.14-Cleanup/pg-delete.png)
 
 ---
 
@@ -36,7 +36,7 @@ After completing the testing of the **DocuMind AI** system, cleaning up AWS reso
    - Return to the Bucket list, select the bucket, click **Delete**, and type the bucket name to confirm deletion.
 
 > ⚠️ **Screenshot Suggestion:**
-> ![documind-assets-<your-name>](/images/5-Workshop/5.6-Cleanup/s3-delete.png)
+> ![documind-assets-<your-name>](images/5-Workshop/5.14-Cleanup/s3-delete.png)
 
 ---
 
